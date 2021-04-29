@@ -1,12 +1,10 @@
 const initialState = {
-  language: null,
+  language: "uz",
   error: {},
 };
 
 function langReducer(state = initialState, action) {
   const { type, payload } = action;
-
-  console.log(payload);
 
   switch (type) {
     case "LANG_CHANGED":

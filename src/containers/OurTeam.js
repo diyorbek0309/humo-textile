@@ -1,21 +1,21 @@
 import React from "react";
 import { useSelector } from "react-redux";
 
-function Main() {
+function OurTeam() {
   let lang = useSelector((state) => state.language);
 
-  let mainData;
+  let ourTeamData;
   if (lang === "uz") {
-    mainData = {
-      carousel: {
+    ourTeamData = {
+      header: {
         title: "Humo - tekstil LTD",
         text: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
 enim minim estudiat veniam siad venumus dolore`,
       },
     };
   } else {
-    mainData = {
-      carousel: {
+    ourTeamData = {
+      header: {
         title: "Humo - tekstil LTD",
         text: `Рус Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
 enim minim estudiat veniam siad venumus dolore`,
@@ -24,11 +24,10 @@ enim minim estudiat veniam siad venumus dolore`,
   }
 
   return (
-    <div style={{ marginTop: "200px" }}>
-      <h1>{mainData.carousel.title}</h1>
-      <h4>{mainData.carousel.text}</h4>
+    <div style={{ marginTop: "180px" }}>
+      <h2>{ourTeamData.header.text}</h2>
     </div>
   );
 }
 
-export default Main;
+export default OurTeam;

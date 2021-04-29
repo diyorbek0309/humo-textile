@@ -1,7 +1,9 @@
 import { createStore, compose } from "redux";
 import langReducer from "./redux/reducers/language";
 
-const initialState = {};
+const initialState = {
+  language: "uz",
+};
 
 const composeEnhancers =
   process.env.NODE_ENV === "development"
