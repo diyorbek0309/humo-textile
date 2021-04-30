@@ -80,15 +80,15 @@ export default function Navbar() {
         href: `/`,
       },
       {
-        label: "Mahsulotlarimiz",
+        label: "Наши продукты",
         href: `/products`,
       },
       {
-        label: "Bizning jamoa",
+        label: "Наша команда",
         href: `/our-team`,
       },
       {
-        label: "Aloqa",
+        label: "Контакть",
         href: `/contact`,
       },
     ];

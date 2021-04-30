@@ -1,5 +1,7 @@
 import React from "react";
 import { useSelector } from "react-redux";
+import Header from "../components/extra/Header";
+import classes from "../components/products/Products.css";
 
 function Products() {
   let lang = useSelector((state) => state.language);
@@ -8,7 +10,7 @@ function Products() {
   if (lang === "uz") {
     productsData = {
       header: {
-        title: "Humo - tekstil LTD",
+        title: "Bizning mahsulotlarimiz",
         text: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
 enim minim estudiat veniam siad venumus dolore`,
       },
@@ -16,7 +18,7 @@ enim minim estudiat veniam siad venumus dolore`,
   } else {
     productsData = {
       header: {
-        title: "Humo - tekstil LTD",
+        title: "Наши продукты",
         text: `Рус Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
 enim minim estudiat veniam siad venumus dolore`,
       },
@@ -24,8 +26,8 @@ enim minim estudiat veniam siad venumus dolore`,
   }
 
   return (
-    <div style={{ marginTop: "200px" }}>
-      <h2>{productsData.header.text}</h2>
+    <div className={classes.ProductContainer}>
+      <Header header={productsData.header} />
     </div>
   );
 }
