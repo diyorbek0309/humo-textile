@@ -1,5 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
+import classes from "../components/landing/Landing.css";
 
 function Main() {
   let lang = useSelector((state) => state.language);
@@ -24,9 +25,8 @@ enim minim estudiat veniam siad venumus dolore`,
   }
 
   return (
-    <div style={{ marginTop: "200px" }}>
-      <h1>{mainData.carousel.title}</h1>
-      <h4>{mainData.carousel.text}</h4>
+    <div className={classes.LandingContainer}>
+      <h2>{mainData.carousel.title}</h2>
     </div>
   );
 }
