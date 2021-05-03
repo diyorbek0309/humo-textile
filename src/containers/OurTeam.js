@@ -27,7 +27,7 @@ function OurTeam() {
                 <div className={classes.member_img}>
                   <img
                     src="https://i.imgur.com/2Necikc.png"
-                    alt="Jamoa Rasmi"
+                    alt="Jamoaviy Surat"
                   />
                 </div>
                 <h3>{member.firstName + " " + member.lastName}</h3>

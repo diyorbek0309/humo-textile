@@ -13,6 +13,8 @@ import { productsDataRu } from "../data";
 import PersonIcon from "@material-ui/icons/Person";
 import ChildCareIcon from "@material-ui/icons/ChildCare";
 import TabPanel from "../components/extra/TabPanel";
+import CheckCircleIcon from "@material-ui/icons/CheckCircle";
+import CancelIcon from "@material-ui/icons/Cancel";
 
 function a11yProps(index) {
   return {
@@ -104,6 +106,7 @@ function Products() {
                 name={man.name}
                 size={man.size}
                 price={man.price}
+                isAvailable={man.isAvailable}
               />
             ))}
           </TabPanel>
@@ -116,6 +119,7 @@ function Products() {
                 name={woman.name}
                 size={woman.size}
                 price={woman.price}
+                isAvailable={woman.isAvailable}
               />
             ))}
           </TabPanel>
@@ -128,9 +132,20 @@ function Products() {
                 name={child.name}
                 size={child.size}
                 price={child.price}
+                isAvailable={child.isAvailable}
               />
             ))}
           </TabPanel>
+          <div className={classes.Information}>
+            <p>
+              Hozirda savdoda mavjud bo'lgan mahsulotlar -{" "}
+              <CheckCircleIcon className={classes.Checkmark} />
+            </p>
+            <p>
+              Hozirda savdoda mavjud bo'lmagan mahsulotlar -{" "}
+              <CancelIcon className={classes.Cancel} />
+            </p>
+          </div>
         </div>
       </Container>
     </div>
