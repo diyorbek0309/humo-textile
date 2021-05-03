@@ -1,31 +1,43 @@
+import { Container } from "@material-ui/core";
 import React from "react";
 import { useSelector } from "react-redux";
+import Header from "../components/extra/Header";
+import classes from "../components/our-team/OurTeam.css";
+import { ourTeamDataUz } from "../data";
+import { ourTeamDataRu } from "../data";
 
 function OurTeam() {
   let lang = useSelector((state) => state.language);
 
   let ourTeamData;
   if (lang === "uz") {
-    ourTeamData = {
-      header: {
-        title: "Humo - tekstil LTD",
-        text: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
-enim minim estudiat veniam siad venumus dolore`,
-      },
-    };
+    ourTeamData = { ...ourTeamDataUz };
   } else {
-    ourTeamData = {
-      header: {
-        title: "Humo - tekstil LTD",
-        text: `Рус Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
-enim minim estudiat veniam siad venumus dolore`,
-      },
-    };
+    ourTeamData = { ...ourTeamDataRu };
   }
 
   return (
-    <div style={{ marginTop: "180px" }}>
-      <h2>{ourTeamData.header.text}</h2>
+    <div className={classes.OurTeamContainer}>
+      <Header header={ourTeamData.header} />
+      <Container maxWidth="lg" className={classes.OurTeamWrap}>
+        <div className={classes.wrapper}>
+          <div className={classes.our_team}>
+            {ourTeamData.members.map((member) => (
+              <div className={classes.team_member}>
+                <div className={classes.member_img}>
+                  <img
+                    src="https://i.imgur.com/2Necikc.png"
+                    alt="Jamoa Rasmi"
+                  />
+                </div>
+                <h3>{member.firstName + " " + member.lastName}</h3>
+                <span>{member.position}</span>
+                <p>{member.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </Container>
     </div>
   );
 }

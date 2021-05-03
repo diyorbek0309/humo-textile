@@ -3,37 +3,18 @@ import { useSelector } from "react-redux";
 import classes from "../components/landing/Landing.css";
 import { Typography } from "@material-ui/core";
 import AboutSection from "../components/landing/AboutSection";
+import OurAdvanatages from "../components/landing/OurAdvantages";
+import Counter from "../components/landing/Counter";
+import { mainDataUz, mainDataRu } from "../data";
 
 function Main() {
   let lang = useSelector((state) => state.language);
 
   let mainData;
   if (lang === "uz") {
-    mainData = {
-      carousel: {
-        title: "Humo - tekstil LTD",
-        text: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
-enim minim estudiat veniam siad venumus dolore`,
-      },
-      about: {
-        title: "Kompaniyamiz haqida",
-        text:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sed distinctio provident officia animi similique unde amet voluptatem ipsa sapiente, quasi itaque reprehenderit nostrum ratione blanditiis laborum quidem. Deleniti, distinctio.",
-      },
-    };
+    mainData = { ...mainDataUz };
   } else {
-    mainData = {
-      carousel: {
-        title: "Humo - tekstil LTD",
-        text: `Рус Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
-enim minim estudiat veniam siad venumus dolore`,
-      },
-      about: {
-        title: "Kompaniyamiz haqida",
-        text:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sed distinctio provident officia animi similique unde amet voluptatem ipsa sapiente, quasi itaque reprehenderit nostrum ratione blanditiis laborum quidem. Deleniti, distinctio.",
-      },
-    };
+    mainData = { ...mainDataRu };
   }
 
   return (
@@ -46,7 +27,17 @@ enim minim estudiat veniam siad venumus dolore`,
           {mainData.carousel.text}
         </Typography>
       </div>
-      <AboutSection data={mainData.about} />
+      <AboutSection
+        title={mainData.about.title}
+        text1={mainData.about.text1}
+        text2={mainData.about.text2}
+      />
+      <OurAdvanatages />
+      <div className={classes.CounterWrap}>
+        {mainData.counter.map((counter, index) => (
+          <Counter key={index} label={counter.label} number={counter.number} />
+        ))}
+      </div>
     </div>
   );
 }

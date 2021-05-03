@@ -1,0 +1,13 @@
+.ContactContainer {
+  margin-top: 60px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.Adress {
+  text-align: center;
+  padding: 30px;
+  padding-bottom: 40px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+  margin-right: 40px;
+}

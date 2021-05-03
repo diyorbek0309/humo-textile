@@ -4,8 +4,8 @@
 
 .HeaderWrap {
   padding-left: 140px;
-  padding-top: 200px;
-  height: 67.2vh;
+  padding-top: 220px;
+  height: 64.5vh;
   background: linear-gradient(to right, #0575e6, #400ccc);
 }
 
@@ -20,9 +20,111 @@
   width: 45%;
 }
 
-.AboutSection {
+.AboutSectionContainer {
   margin-top: 30px;
   margin-bottom: 30px;
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.FooterContainer {
+  margin-top: 40px;
+  padding: 20px 0;
+  width: 100%;
+  background: linear-gradient(to left, #0575e6, #400ccc);
+  color: #fff;
+}
+
+.FooterContainer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.FooterContainer .MuiListItem-button {
+  padding-left: 6px;
+  padding-right: 10px;
+}
+
+.MuiSvgIcon-root {
+  fill: #fff !important;
+}
+
+.MuiListItemIcon-root {
+  padding: 0;
+}
+
+.FooterLeft,
+.FooterRight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.FooterList {
+  max-width: 280px;
+}
+
+.FooterNestedList {
+  padding-left: 40px;
+}
+
+.FooterNestedList .MuiListItemText-root {
+  font-size: 14px;
+}
+
+.MuiGrid-container {
+  padding-left: 140px;
+}
+
+.MuiCollapse-wrapper {
+  padding-left: 140px;
+}
+
+.CounterWrap {
+  display: flex;
+  padding: 30px 140px;
+  background: linear-gradient(
+    110deg,
+    rgb(82, 252, 238) 33.33%,
+    rgb(82, 253, 230) 33.33%,
+    rgb(69, 196, 255) 66.66%,
+    rgb(98, 179, 245) 66.66%
+  );
+  background-size: cover;
+  height: 240px;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.Counter {
+  width: 33%;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+}
+
+.Counter h1 {
+  text-align: center;
+  font-size: 72px;
+  margin-bottom: 0;
+}
+
+.Counter h2 {
+  font-size: 32px;
+}
+
+.AboutImage {
+  width: 100%;
+}
+
+.AboutText {
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  color: #033568;
+  padding-right: 20px;
 }
