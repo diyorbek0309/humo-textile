@@ -6,6 +6,7 @@ import AboutSection from "../components/landing/AboutSection";
 import OurAdvanatages from "../components/landing/OurAdvantages";
 import Counter from "../components/landing/Counter";
 import { mainDataUz, mainDataRu } from "../data";
+import SliderProducts from "../components/landing/SliderProducts";
 
 function Main() {
   let lang = useSelector((state) => state.language);
@@ -38,6 +39,7 @@ function Main() {
           <Counter key={index} label={counter.label} number={counter.number} />
         ))}
       </div>
+      <SliderProducts />
     </div>
   );
 }

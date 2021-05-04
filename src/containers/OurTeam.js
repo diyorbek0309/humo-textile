@@ -3,8 +3,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 import Header from "../components/extra/Header";
 import classes from "../components/our-team/OurTeam.css";
-import { ourTeamDataUz } from "../data";
-import { ourTeamDataRu } from "../data";
+import { ourTeamDataUz, ourTeamDataRu } from "../data";
 
 function OurTeam() {
   let lang = useSelector((state) => state.language);
@@ -25,10 +24,7 @@ function OurTeam() {
             {ourTeamData.members.map((member) => (
               <div className={classes.team_member}>
                 <div className={classes.member_img}>
-                  <img
-                    src="https://i.imgur.com/2Necikc.png"
-                    alt="Jamoaviy Surat"
-                  />
+                  <img src={member.image} alt="Jamoaviy Surat" />
                 </div>
                 <h3>{member.firstName + " " + member.lastName}</h3>
                 <span>{member.position}</span>

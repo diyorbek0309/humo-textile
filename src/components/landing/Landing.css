@@ -127,4 +127,9 @@
   font-size: 22px;
   color: #033568;
   padding-right: 20px;
+  margin-top: 0;
+}
+
+.SliderProducts {
+  padding-bottom: 60px;
 }

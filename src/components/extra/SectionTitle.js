@@ -1,5 +1,5 @@
 import { Typography } from "@material-ui/core";
-import classes from "../landing/Landing.css";
+import classes from "./Extra.css";
 
 const SectionTitle = (props) => (
   <Typography variant="h3" color="primary" className={classes.SectionTitle}>
