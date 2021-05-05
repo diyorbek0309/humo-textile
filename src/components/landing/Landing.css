@@ -133,3 +133,80 @@
 .SliderProducts {
   padding-bottom: 60px;
 }
+
+.IconBox {
+  padding: 25px 30px;
+  width: 30%;
+  margin-left: 40px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 15px 0 rgba(68, 88, 144, 0.2);
+  transition: all 0.5s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.IconBox:first-child {
+  margin-left: 0;
+}
+
+.IconBox::before {
+  content: "";
+  position: absolute;
+  background: white;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 100%;
+  transition: all 0.3s;
+  z-index: -1;
+}
+
+.IconBox:hover::before {
+  background: #4bdff3;
+  top: 0;
+  border-radius: 0px;
+}
+
+.IconWrap {
+  margin-bottom: 15px;
+}
+
+.Icon {
+  color: #4bdff3;
+  font-size: 80px !important;
+  line-height: 1;
+  transition: all 0.5s ease-in-out;
+}
+
+.title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #162680;
+  margin-top: 0;
+}
+
+.description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+  color: #162680;
+}
+
+.IconBox:hover .title,
+.IconBox:hover .description {
+  color: #fff;
+}
+
+.IconBox:hover .Icon {
+  color: #fff;
+}
+
+.OurAdvantagesRow {
+  display: flex;
+  margin-bottom: 80px;
+}

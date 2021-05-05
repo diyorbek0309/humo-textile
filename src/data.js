@@ -1,4 +1,7 @@
 import avatar1 from "./assets/img/avatar.png";
+import FiberNewIcon from "@material-ui/icons/FiberNew";
+import TimerIcon from "@material-ui/icons/Timer";
+import classes from "./components/landing/Landing.css";
 
 export const mainDataUz = {
   carousel: {
@@ -30,6 +33,27 @@ enim minim estudiat veniam siad venumus dolore`,
     {
       label: "Ishlab chiqarish quvvati",
       number: "1000",
+    },
+  ],
+  advantageTitle: "Bizning afzalliklarimiz",
+  advantage: [
+    {
+      icon: <FiberNewIcon className={classes.Icon} />,
+      title: "Tezkor xizmat ko'rsatish",
+      description: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
+enim`,
+    },
+    {
+      icon: <TimerIcon className={classes.Icon} />,
+      title: "Tezkor xizmat ko'rsatish",
+      description: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
+enim`,
+    },
+    {
+      icon: <FiberNewIcon className={classes.Icon} />,
+      title: "Tezkor xizmat ko'rsatish",
+      description: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
+enim`,
     },
   ],
 };
@@ -64,6 +88,27 @@ enim minim estudiat veniam siad venumus dolore`,
     {
       label: "Ishlab chiqarish quvvati",
       number: "1000",
+    },
+  ],
+  advantageTitle: "Bizning afzalliklarimiz",
+  advantage: [
+    {
+      icon: <FiberNewIcon className={classes.Icon} />,
+      title: "Tezkor xizmat ko'rsatish",
+      description: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
+enim`,
+    },
+    {
+      icon: <TimerIcon className={classes.Icon} />,
+      title: "Tezkor xizmat ko'rsatish",
+      description: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
+enim`,
+    },
+    {
+      icon: <FiberNewIcon className={classes.Icon} />,
+      title: "Tezkor xizmat ko'rsatish",
+      description: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
+enim`,
     },
   ],
 };
@@ -186,7 +231,7 @@ enim minim estudiat veniam siad venumus dolore`,
   },
   adress: {
     title: "Bizning manzil:",
-    text: "Xorazm viloyati, Xonqa tumani, AAAAAAAAAAA ko'chasi 29 - uy",
+    text: "Xorazm viloyati, Xonqa tumani, Shiroq ko'chasi 60 - uy",
   },
   contact: {
     title: "Bizga yozing!",
@@ -208,7 +253,7 @@ enim minim estudiat veniam siad venumus dolore`,
   },
   adress: {
     title: "Bizning manzil:",
-    text: "Xorazm viloyati, Xonqa tumani, AAAAAAAAAAA ko'chasi 29 - uy",
+    text: "Xorazm viloyati, Xonqa tumani, Shiroq ko'chasi 60 - uy",
   },
   contact: {
     title: "Bizga yozing!",

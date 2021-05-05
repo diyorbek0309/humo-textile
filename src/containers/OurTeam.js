@@ -3,6 +3,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 import Header from "../components/extra/Header";
 import classes from "../components/our-team/OurTeam.css";
+import OurTeamGallery from "../components/our-team/OurTeamGallery";
 import { ourTeamDataUz, ourTeamDataRu } from "../data";
 
 function OurTeam() {
@@ -33,6 +34,7 @@ function OurTeam() {
             ))}
           </div>
         </div>
+        <OurTeamGallery />
       </Container>
     </div>
   );

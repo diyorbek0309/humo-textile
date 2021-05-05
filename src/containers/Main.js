@@ -33,7 +33,10 @@ function Main() {
         text1={mainData.about.text1}
         text2={mainData.about.text2}
       />
-      <OurAdvanatages />
+      <OurAdvanatages
+        advantage={mainData.advantage}
+        advantageTitle={mainData.advantageTitle}
+      />
       <div className={classes.CounterWrap}>
         {mainData.counter.map((counter, index) => (
           <Counter key={index} label={counter.label} number={counter.number} />
