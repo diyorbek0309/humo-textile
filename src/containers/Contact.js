@@ -9,7 +9,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import * as yup from "yup";
 import { useFormik } from "formik";
 import { contactDataUz, contactDataRu } from "../data";
-import axios from "axios";
+// import axios from "axios";
 
 const validationSchema = yup.object({
   firstName: yup
@@ -59,35 +59,36 @@ function Contact() {
     },
     validationSchema,
     onSubmit: (values) => {
-      axios
-        .post("/api/sendmail", values)
-        .then((res) => {
-          if (res.data.result !== "success") {
-            setTimeout(() => {
-              // resetForm();
-              values = {};
-            }, 6000);
-          } else {
-            // setData({
-            //   ...data,
-            //   sent: true,
-            //   buttonText: "Sent",
-            //   err: "success",
-            // });
-            setTimeout(() => {
-              // resetForm();
-              values = {};
-            }, 6000);
-          }
-        })
-        .catch((err) => {
-          console.log(err.response.status);
-          // setData({
-          //   ...data,
-          //   buttonText: "Failed to send",
-          //   err: "fail",
-          // });
-        });
+      // axios
+      //   .post("/api/sendmail", values)
+      //   .then((res) => {
+      //     if (res.data.result !== "success") {
+      //       setTimeout(() => {
+      //         // resetForm();
+      //         values = {};
+      //       }, 6000);
+      //     } else {
+      // setData({
+      //   ...data,
+      //   sent: true,
+      //   buttonText: "Sent",
+      //   err: "success",
+      // });
+      // setTimeout(() => {
+      //   // resetForm();
+      //   values = {};
+      // }, 6000);
+      // }
+      // })
+      // .catch((err) => {
+      //   console.log(err.response.status);
+      // setData({
+      //   ...data,
+      //   buttonText: "Failed to send",
+      //   err: "fail",
+      // });
+      // });
+      alert(values);
     },
   });
 
