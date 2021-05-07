@@ -1,11 +1,11 @@
 import React from "react";
 import "react-image-gallery/styles/css/image-gallery.css";
 import ImageGallery from "react-image-gallery";
-import mens1 from "../../assets/img/products/mens/mens1.JPG";
-import mens2 from "../../assets/img/products/mens/mens2.JPG";
-import mens3 from "../../assets/img/products/mens/mens3.JPG";
-import mens4 from "../../assets/img/products/mens/mens4.JPG";
-import mens5 from "../../assets/img/products/mens/mens5.JPG";
+import mens1 from "../../assets/img/webp/mens/mens1.webp";
+import mens2 from "../../assets/img/webp/mens/mens2.webp";
+import mens3 from "../../assets/img/webp/mens/mens3.webp";
+import mens4 from "../../assets/img/webp/mens/mens4.webp";
+import mens5 from "../../assets/img/webp/mens/mens5.webp";
 
 const OurTeamGallery = () => {
   const images = [

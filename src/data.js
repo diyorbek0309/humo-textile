@@ -1,4 +1,4 @@
-import avatar1 from "./assets/img/avatar.png";
+import avatar1 from "./assets/img/avatarWEBP.webp";
 import FiberNewIcon from "@material-ui/icons/FiberNew";
 import TimerIcon from "@material-ui/icons/Timer";
 import ThumbUpIcon from "@material-ui/icons/ThumbUp";
