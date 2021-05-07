@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { useSelector } from "react-redux";
 import Header from "../components/extra/Header";
 import classes from "../components/contact/Contact.css";
@@ -9,7 +9,6 @@ import { makeStyles } from "@material-ui/core/styles";
 import * as yup from "yup";
 import { useFormik } from "formik";
 import { contactDataUz, contactDataRu } from "../data";
-// import axios from "axios";
 
 const validationSchema = yup.object({
   firstName: yup
@@ -225,15 +224,3 @@ function Contact() {
 }
 
 export default Contact;
-
-// export default function SignUp() {
-//   return (
-//     <Container component="main" maxWidth="xs">
-//       <CssBaseline />
-
-//       <Box my={3}>
-//         <Copyright />
-//       </Box>
-//     </Container>
-//   );
-// }
