@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import Header from "../components/extra/Header";
 import classes from "../components/contact/Contact.css";
@@ -9,6 +9,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import * as yup from "yup";
 import { useFormik } from "formik";
 import { contactDataUz, contactDataRu } from "../data";
+import axios from "axios";
 
 const validationSchema = yup.object({
   firstName: yup
@@ -48,6 +49,7 @@ const useStyles = makeStyles((theme) => ({
 function Contact() {
   const lang = useSelector((state) => state.language);
   const styles = useStyles();
+
   const formik = useFormik({
     initialValues: {
       firstName: "",
@@ -57,7 +59,35 @@ function Contact() {
     },
     validationSchema,
     onSubmit: (values) => {
-      alert(JSON.stringify(values));
+      axios
+        .post("/api/sendmail", values)
+        .then((res) => {
+          if (res.data.result !== "success") {
+            setTimeout(() => {
+              // resetForm();
+              values = {};
+            }, 6000);
+          } else {
+            // setData({
+            //   ...data,
+            //   sent: true,
+            //   buttonText: "Sent",
+            //   err: "success",
+            // });
+            setTimeout(() => {
+              // resetForm();
+              values = {};
+            }, 6000);
+          }
+        })
+        .catch((err) => {
+          console.log(err.response.status);
+          // setData({
+          //   ...data,
+          //   buttonText: "Failed to send",
+          //   err: "fail",
+          // });
+        });
     },
   });
 

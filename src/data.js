@@ -1,6 +1,7 @@
 import avatar1 from "./assets/img/avatar.png";
 import FiberNewIcon from "@material-ui/icons/FiberNew";
 import TimerIcon from "@material-ui/icons/Timer";
+import ThumbUpIcon from "@material-ui/icons/ThumbUp";
 import classes from "./components/landing/Landing.css";
 
 export const mainDataUz = {
@@ -38,8 +39,8 @@ enim minim estudiat veniam siad venumus dolore`,
   advantageTitle: "Bizning afzalliklarimiz",
   advantage: [
     {
-      icon: <FiberNewIcon className={classes.Icon} />,
-      title: "Tezkor xizmat ko'rsatish",
+      icon: <ThumbUpIcon className={classes.Icon} />,
+      title: "Yuqori sifat",
       description: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
 enim`,
     },
@@ -51,7 +52,7 @@ enim`,
     },
     {
       icon: <FiberNewIcon className={classes.Icon} />,
-      title: "Tezkor xizmat ko'rsatish",
+      title: "Yangicha dizaynlar",
       description: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
 enim`,
     },
@@ -93,8 +94,8 @@ enim minim estudiat veniam siad venumus dolore`,
   advantageTitle: "Bizning afzalliklarimiz",
   advantage: [
     {
-      icon: <FiberNewIcon className={classes.Icon} />,
-      title: "Tezkor xizmat ko'rsatish",
+      icon: <ThumbUpIcon className={classes.Icon} />,
+      title: "Yuqori sifat",
       description: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
 enim`,
     },
@@ -117,7 +118,7 @@ export const ourTeamDataUz = {
   header: {
     title: "Bizning jamoamiz",
     text: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
-enim minim estudiat veniam siad venumus dolore`,
+enim minim estudiat`,
   },
   members: [
     {
@@ -126,7 +127,7 @@ enim minim estudiat veniam siad venumus dolore`,
       lastName: "Olimov",
       position: "Dasturchi",
       description: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
-enim minim estudiat veniam siad venumus dolore`,
+enim minim estudiat`,
     },
     {
       image: avatar1,
@@ -134,7 +135,7 @@ enim minim estudiat veniam siad venumus dolore`,
       lastName: "Olimov",
       position: "Dasturchi",
       description: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
-enim minim estudiat veniam siad venumus dolore`,
+enim minim estudiat`,
     },
     {
       image: avatar1,
@@ -142,7 +143,7 @@ enim minim estudiat veniam siad venumus dolore`,
       lastName: "Olimov",
       position: "Dasturchi",
       description: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
-enim minim estudiat veniam siad venumus dolore`,
+enim minim estudiat`,
     },
     {
       image: avatar1,
@@ -150,7 +151,7 @@ enim minim estudiat veniam siad venumus dolore`,
       lastName: "Olimov",
       position: "Dasturchi",
       description: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
-enim minim estudiat veniam siad venumus dolore`,
+enim minim estudiat`,
     },
     {
       image: avatar1,
@@ -158,7 +159,7 @@ enim minim estudiat veniam siad venumus dolore`,
       lastName: "Olimov",
       position: "Dasturchi",
       description: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
-enim minim estudiat veniam siad venumus dolore`,
+enim minim estudiat`,
     },
     {
       image: avatar1,
@@ -166,7 +167,7 @@ enim minim estudiat veniam siad venumus dolore`,
       lastName: "Olimov",
       position: "Dasturchi",
       description: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
-enim minim estudiat veniam siad venumus dolore`,
+enim minim estudiat`,
     },
   ],
 };
@@ -175,7 +176,7 @@ export const ourTeamDataRu = {
   header: {
     title: "Bizning jamoamiz",
     text: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
-enim minim estudiat veniam siad venumus dolore`,
+enim minim estudiat`,
   },
   members: [
     {
@@ -183,42 +184,42 @@ enim minim estudiat veniam siad venumus dolore`,
       lastName: "Olimov",
       position: "Dasturchi",
       description: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
-enim minim estudiat veniam siad venumus dolore`,
+enim minim estudiat`,
     },
     {
       firstName: "Diyorbek",
       lastName: "Olimov",
       position: "Dasturchi",
       description: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
-enim minim estudiat veniam siad venumus dolore`,
+enim minim estudiat`,
     },
     {
       firstName: "Diyorbek",
       lastName: "Olimov",
       position: "Dasturchi",
       description: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
-enim minim estudiat veniam siad venumus dolore`,
+enim minim estudiat`,
     },
     {
       firstName: "Diyorbek",
       lastName: "Olimov",
       position: "Dasturchi",
       description: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
-enim minim estudiat veniam siad venumus dolore`,
+enim minim estudiat`,
     },
     {
       firstName: "Diyorbek",
       lastName: "Olimov",
       position: "Dasturchi",
       description: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
-enim minim estudiat veniam siad venumus dolore`,
+enim minim estudiat`,
     },
     {
       firstName: "Diyorbek",
       lastName: "Olimov",
       position: "Dasturchi",
       description: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
-enim minim estudiat veniam siad venumus dolore`,
+enim minim estudiat`,
     },
   ],
 };

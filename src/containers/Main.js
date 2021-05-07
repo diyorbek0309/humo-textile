@@ -6,16 +6,20 @@ import AboutSection from "../components/landing/AboutSection";
 import OurAdvanatages from "../components/landing/OurAdvantages";
 import Counter from "../components/landing/Counter";
 import { mainDataUz, mainDataRu } from "../data";
+import { sliderProductsDataRu, sliderProductsDataUz } from "../productData";
 import SliderProducts from "../components/landing/SliderProducts";
 
 function Main() {
   let lang = useSelector((state) => state.language);
 
   let mainData;
+  let sliderProductsData;
   if (lang === "uz") {
     mainData = { ...mainDataUz };
+    sliderProductsData = { ...sliderProductsDataUz };
   } else {
     mainData = { ...mainDataRu };
+    sliderProductsData = { ...sliderProductsDataRu };
   }
 
   return (
@@ -42,7 +46,7 @@ function Main() {
           <Counter key={index} label={counter.label} number={counter.number} />
         ))}
       </div>
-      <SliderProducts />
+      <SliderProducts data={sliderProductsData} />
     </div>
   );
 }

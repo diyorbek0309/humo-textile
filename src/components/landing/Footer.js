@@ -51,7 +51,7 @@ const Footer = () => {
       titleRight: "Biz bilan bog'laning",
       tel: ["+99897 517 2808", "+99899 999 9999"],
       adresTitle: "Bizning manzil:",
-      adres: "Xorazm viloyati, Xonqa tumani, Shiroq ko'chasi 60 - uy",
+      adres: "Xorazm viloyati Xonqa tumani Shiroq ko'chasi 60 - uy",
     };
   } else {
     footerData = {
@@ -61,7 +61,7 @@ const Footer = () => {
       titleRight: "Biz bilan bog'laning",
       tel: ["+99897 517 2808", "+99899 999 9999"],
       adresTitle: "Bizning manzil:",
-      adres: "Xorazm viloyati, Xonqa tumani, Shiroq ko'chasi 60 - uy",
+      adres: "Xorazm viloyati Xonqa tumani Shiroq ko'chasi 60 - uy",
       nestedLinks: ["Erkaklar", "Ayollar", "Bolalar"],
       nestedUrls: ["/products", "/products", "/products"],
     };

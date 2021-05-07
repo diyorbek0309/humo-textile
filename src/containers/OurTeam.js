@@ -5,6 +5,7 @@ import Header from "../components/extra/Header";
 import classes from "../components/our-team/OurTeam.css";
 import OurTeamGallery from "../components/our-team/OurTeamGallery";
 import { ourTeamDataUz, ourTeamDataRu } from "../data";
+import SectionTitle from "../components/extra/SectionTitle";
 
 function OurTeam() {
   let lang = useSelector((state) => state.language);
@@ -22,8 +23,8 @@ function OurTeam() {
       <Container maxWidth="lg" className={classes.OurTeamWrap}>
         <div className={classes.wrapper}>
           <div className={classes.our_team}>
-            {ourTeamData.members.map((member) => (
-              <div className={classes.team_member}>
+            {ourTeamData.members.map((member, index) => (
+              <div className={classes.team_member} key={index}>
                 <div className={classes.member_img}>
                   <img src={member.image} alt="Jamoaviy Surat" />
                 </div>
@@ -34,6 +35,7 @@ function OurTeam() {
             ))}
           </div>
         </div>
+        <SectionTitle title="Jamoamiz ish jarayonidan namunalar" />
         <OurTeamGallery />
       </Container>
     </div>

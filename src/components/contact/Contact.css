@@ -11,3 +11,8 @@
   margin-bottom: 64px;
   margin-right: 40px;
 }
+
+.Adress h2,
+.Adress h3 {
+  color: rgb(18, 20, 126);
+}
