@@ -25,7 +25,9 @@ export default function ProductItem({
     if (!visible && placeholderRef.current) {
       const observer = new IntersectionObserver(([{ intersectionRatio }]) => {
         if (intersectionRatio > 0) {
-          setVisible(true);
+          setTimeout(() => {
+            setVisible(true);
+          }, 1000);
         }
       });
       observer.observe(placeholderRef.current);
