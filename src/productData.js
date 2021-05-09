@@ -233,8 +233,7 @@ export const productsDataUz = {
 export const productsDataRu = {
   header: {
     title: "Наши продукты",
-    text: `Рус Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
-enim minim estudiat veniam siad venumus dolore`,
+    text: `Вы можете связаться с нами по номерам, указанным ниже, чтобы приобрести нашу продукцию!`,
   },
   tabTitle: ["Erkaklar kiyimlari", "Ayollar kiyimlari", "Bolalar kiyimlari"],
   sizeName: "O'lchami: ",

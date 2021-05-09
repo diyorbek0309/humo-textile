@@ -67,7 +67,7 @@ enim`,
 
 export const mainDataRu = {
   carousel: {
-    title: "Humo - tekstil LTD",
+    title: "ХУМО - ТЕКСТИЛЬ ООО",
     text: `Рус Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
 enim minim estudiat veniam siad venumus dolore`,
   },
@@ -143,8 +143,7 @@ export const footerDataRu = {
 export const ourTeamDataUz = {
   header: {
     title: "Bizning jamoamiz",
-    text: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
-enim minim estudiat`,
+    text: `Bizning kompaniyada xodimlarimiz ishlashi, dam olishi uchun qulay sharoitlar yaratilgan!`,
   },
   members: [
     {
@@ -200,9 +199,8 @@ enim minim estudiat`,
 
 export const ourTeamDataRu = {
   header: {
-    title: "Bizning jamoamiz",
-    text: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
-enim minim estudiat`,
+    title: "НАША КОМАНДА",
+    text: `В нашей компании созданы благоприятные условия для работы и отдыха наших сотрудников!`,
   },
   members: [
     {
@@ -252,9 +250,8 @@ enim minim estudiat`,
 
 export const contactDataUz = {
   header: {
-    title: "Humo - tekstil LTD",
-    text: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
-enim minim estudiat veniam siad venumus dolore`,
+    title: "Aloqa",
+    text: `Biz bilan bog'lanish uchun quyidagi ma'lumotlardan foydalanishingiz mumkin`,
   },
   adress: {
     title: "Bizning manzil:",
@@ -274,9 +271,8 @@ enim minim estudiat veniam siad venumus dolore`,
 
 export const contactDataRu = {
   header: {
-    title: "Humo - tekstil LTD",
-    text: `Рус Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
-enim minim estudiat veniam siad venumus dolore`,
+    title: "Контакть",
+    text: `Вы можете использовать следующую информацию, чтобы связаться с нами`,
   },
   adress: {
     title: "Bizning manzil:",
