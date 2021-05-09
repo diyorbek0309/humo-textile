@@ -28,3 +28,12 @@
 .Spinner {
   margin: 42vh 45vw;
 }
+
+@media screen and (max-width: 480px) {
+  .SectionTitle {
+    font-size: 32px !important;
+  }
+  .Spinner {
+    margin: 35vh 35vw;
+  }
+}

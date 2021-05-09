@@ -8,8 +8,8 @@ const OurAdvantages = ({ advantage, advantageTitle }) => {
     <Container maxWidth="lg" className={classes.OurAdvantagesContainer}>
       <SectionTitle title={advantageTitle} />
       <div className={classes.OurAdvantagesRow}>
-        {advantage.map((adv) => (
-          <div className={classes.IconBox}>
+        {advantage.map((adv, index) => (
+          <div className={classes.IconBox} key={index}>
             <div className={classes.IconWrap}>{adv.icon}</div>
             <h4 className={classes.title}>{adv.title}</h4>
             <p className={classes.description}>{adv.description}</p>

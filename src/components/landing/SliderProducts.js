@@ -8,6 +8,7 @@ import classes from "./Landing.css";
 
 const SampleNextArrow = (props) => {
   const { className, style, onClick } = props;
+  console.log(props);
   return (
     <div
       className={className}
@@ -16,6 +17,7 @@ const SampleNextArrow = (props) => {
         display: "block",
         background: "#400ccc",
         borderRadius: "50%",
+        right: "-18px",
       }}
       onClick={onClick}
     />
@@ -32,6 +34,7 @@ const SamplePrevArrow = (props) => {
         display: "block",
         background: "#400ccc",
         borderRadius: "50%",
+        left: "-18px",
       }}
       onClick={onClick}
     />
@@ -47,8 +50,9 @@ export default function SliderProducts({ data }) {
     slidesToScroll: 2,
     adaptiveHeight: true,
     initialSlide: 0,
-    nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />,
+    lazyLoad: "progressive",
+    nextArrow: <SampleNextArrow className={classes.NextArrow} />,
+    prevArrow: <SamplePrevArrow className={classes.PrevArrow} />,
     responsive: [
       {
         breakpoint: 1024,
@@ -81,7 +85,7 @@ export default function SliderProducts({ data }) {
       <SectionTitle title="Eng xaridorgir mahsulotlarimiz" />
       <Slider {...settings}>
         {data.products.map((product) => (
-          <div className={classes.ProductItemWrap}>
+          <div className={classes.ProductItemWrap} key={product.image}>
             <img src={product.image} alt="Mahsulot" width="300" />
             <div className={classes.ProductDescription}>
               <Typography variant="h5" component="h2" align="center">
