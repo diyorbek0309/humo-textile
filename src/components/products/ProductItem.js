@@ -49,7 +49,7 @@ export default function ProductItem({
             />
           ) : (
             <div
-              style={{ height: "400px", backgroundColor: "#EEE" }}
+              style={{ height: "420px", backgroundColor: "#EEE" }}
               aria-label="Mahsulot"
               ref={placeholderRef}
             >

@@ -36,4 +36,16 @@
   .Spinner {
     margin: 35vh 35vw;
   }
+  .HeaderWrap {
+    padding-left: 20px;
+    padding-top: 50px;
+    height: 33vh;
+  }
+  .HeaderTitle {
+    font-size: 32px !important;
+  }
+  .HeaderText {
+    font-size: 18px !important;
+    width: 90%;
+  }
 }

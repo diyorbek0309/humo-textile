@@ -24,7 +24,7 @@
 
 .ProductItemImage {
   width: 100%;
-  height: 400px;
+  height: 420px;
 }
 
 .ProductInfo {
@@ -62,4 +62,17 @@
 
 .Tab span {
   height: 3px;
+}
+
+@media screen and (max-width: 480px) {
+  .ProductContainer {
+    margin-top: 50px;
+  }
+  .ProductItemWrap {
+    width: 100%;
+    height: 420px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
 }
