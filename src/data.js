@@ -18,9 +18,15 @@ enim minim estudiat veniam siad venumus dolore`,
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sed distinctio provident officia animi similique unde amet voluptatem ipsa sapiente, quasi itaque reprehenderit nostrum ratione blanditiis laborum quidem. Deleniti, distinctio.",
   },
   footer: {
-    title: "Sayt xaritasi",
+    titleLeft: "Sayt xaritasi",
     link: ["Bosh sahifa", "Mahsulotlarimiz", "Bizning jamoa", "Aloqa"],
+    nestedLinks: ["Erkaklar", "Ayollar", "Bolalar"],
+    nestedUrls: ["/products", "/products", "/products"],
     url: ["/", "/products", "/our-team", "/contact"],
+    titleRight: "Biz bilan bog'laning",
+    tel: ["+99897 517 2808", "+99899 999 9999"],
+    adresTitle: "Bizning manzil:",
+    adres: "Xorazm viloyati Xonqa tumani Shiroq ko'chasi 60 - uy",
   },
   counter: [
     {
@@ -72,11 +78,7 @@ enim minim estudiat veniam siad venumus dolore`,
     text2:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sed distinctio provident officia animi similique unde amet voluptatem ipsa sapiente, quasi itaque reprehenderit nostrum ratione blanditiis laborum quidem. Deleniti, distinctio.",
   },
-  footer: {
-    title: "Sayt xaritasi",
-    link: ["Bosh sahifa", "Mahsulotlarimiz", "Bizning jamoa", "Aloqa"],
-    url: ["/", "/products", "/our-team", "/contact"],
-  },
+  footer: {},
   counter: [
     {
       label: "Xodimlar",
@@ -112,6 +114,30 @@ enim`,
 enim`,
     },
   ],
+};
+
+export const footerDataUz = {
+  titleLeft: "Sayt xaritasi",
+  link: ["Bosh sahifa", "Mahsulotlarimiz", "Bizning jamoa", "Aloqa"],
+  nestedLinks: ["Erkaklar", "Ayollar", "Bolalar"],
+  nestedUrls: ["/products", "/products", "/products"],
+  url: ["/", "/products", "/our-team", "/contact"],
+  titleRight: "Biz bilan bog'laning",
+  tel: ["+99897 517 2808", "+99899 999 9999"],
+  adresTitle: "Bizning manzil:",
+  adres: "Xorazm viloyati Xonqa tumani Shiroq ko'chasi 60 - uy",
+};
+
+export const footerDataRu = {
+  titleLeft: "Sayt xaritasi",
+  link: ["Bosh sahifa", "Mahsulotlarimiz", "Bizning jamoa", "Aloqa"],
+  nestedLinks: ["Erkaklar", "Ayollar", "Bolalar"],
+  nestedUrls: ["/products", "/products", "/products"],
+  url: ["/", "/products", "/our-team", "/contact"],
+  titleRight: "Biz bilan bog'laning",
+  tel: ["+99897 517 2808", "+99899 999 9999"],
+  adresTitle: "Bizning manzil:",
+  adres: "Xorazm viloyati Xonqa tumani Shiroq ko'chasi 60 - uy",
 };
 
 export const ourTeamDataUz = {

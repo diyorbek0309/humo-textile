@@ -9,16 +9,19 @@ import {
   Divider,
   makeStyles,
 } from "@material-ui/core";
+import {
+  Home,
+  ShoppingCart,
+  Person,
+  ContactSupport,
+  ExpandLess,
+  ExpandMore,
+  ChildCare,
+  Group,
+  Phone,
+} from "@material-ui/icons";
 import { useSelector } from "react-redux";
-import HomeIcon from "@material-ui/icons/Home";
-import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
-import PersonIcon from "@material-ui/icons/Person";
-import ContactSupportIcon from "@material-ui/icons/ContactSupport";
-import ExpandLess from "@material-ui/icons/ExpandLess";
-import ExpandMore from "@material-ui/icons/ExpandMore";
-import GroupIcon from "@material-ui/icons/Group";
-import ChildCareIcon from "@material-ui/icons/ChildCare";
-import PhoneIcon from "@material-ui/icons/Phone";
+import { footerDataUz, footerDataRu } from "../../data";
 import { Link } from "react-router-dom";
 import classes from "../landing/Landing.css";
 
@@ -42,29 +45,9 @@ const Footer = () => {
 
   let footerData;
   if (lang === "uz") {
-    footerData = {
-      titleLeft: "Sayt xaritasi",
-      link: ["Bosh sahifa", "Mahsulotlarimiz", "Bizning jamoa", "Aloqa"],
-      nestedLinks: ["Erkaklar", "Ayollar", "Bolalar"],
-      nestedUrls: ["/products", "/products", "/products"],
-      url: ["/", "/products", "/our-team", "/contact"],
-      titleRight: "Biz bilan bog'laning",
-      tel: ["+99897 517 2808", "+99899 999 9999"],
-      adresTitle: "Bizning manzil:",
-      adres: "Xorazm viloyati Xonqa tumani Shiroq ko'chasi 60 - uy",
-    };
+    footerData = { ...footerDataUz };
   } else {
-    footerData = {
-      titleLeft: "Sayt xaritasi",
-      link: ["Bosh sahifa", "Mahsulotlarimiz", "Bizning jamoa", "Контакть"],
-      url: ["/", "/products", "/our-team", "/contact"],
-      titleRight: "Biz bilan bog'laning",
-      tel: ["+99897 517 2808", "+99899 999 9999"],
-      adresTitle: "Bizning manzil:",
-      adres: "Xorazm viloyati Xonqa tumani Shiroq ko'chasi 60 - uy",
-      nestedLinks: ["Erkaklar", "Ayollar", "Bolalar"],
-      nestedUrls: ["/products", "/products", "/products"],
-    };
+    footerData = { ...footerDataRu };
   }
 
   return (
@@ -82,14 +65,14 @@ const Footer = () => {
             <Link to="/">
               <ListItem button>
                 <ListItemIcon>
-                  <HomeIcon style={{ color: "#fff" }} />
+                  <Home style={{ color: "#fff" }} />
                 </ListItemIcon>
                 <ListItemText primary={footerData.link[0]} />
               </ListItem>
             </Link>
             <ListItem button onClick={handleClick}>
               <ListItemIcon>
-                <ShoppingCartIcon style={{ color: "#fff" }} />
+                <ShoppingCart style={{ color: "#fff" }} />
               </ListItemIcon>
               <ListItemText primary={footerData.link[1]} />
               {open ? <ExpandLess /> : <ExpandMore />}
@@ -99,7 +82,7 @@ const Footer = () => {
                 <Link to="/products">
                   <ListItem button className={styles.nested}>
                     <ListItemIcon>
-                      <PersonIcon style={{ color: "#fff" }} />
+                      <Person style={{ color: "#fff" }} />
                     </ListItemIcon>
                     <ListItemText primary={footerData.nestedLinks[0]} />
                   </ListItem>
@@ -107,7 +90,7 @@ const Footer = () => {
                 <Link to="/products">
                   <ListItem button className={styles.nested}>
                     <ListItemIcon>
-                      <PersonIcon style={{ color: "#fff" }} />
+                      <Person style={{ color: "#fff" }} />
                     </ListItemIcon>
                     <ListItemText primary={footerData.nestedLinks[1]} />
                   </ListItem>
@@ -115,7 +98,7 @@ const Footer = () => {
                 <Link to="/products">
                   <ListItem button className={styles.nested}>
                     <ListItemIcon>
-                      <ChildCareIcon style={{ color: "#fff" }} />
+                      <ChildCare style={{ color: "#fff" }} />
                     </ListItemIcon>
                     <ListItemText primary={footerData.nestedLinks[2]} />
                   </ListItem>
@@ -125,7 +108,7 @@ const Footer = () => {
             <Link to="/">
               <ListItem button>
                 <ListItemIcon>
-                  <GroupIcon style={{ color: "#fff" }} />
+                  <Group style={{ color: "#fff" }} />
                 </ListItemIcon>
                 <ListItemText primary={footerData.link[2]} />
               </ListItem>
@@ -133,7 +116,7 @@ const Footer = () => {
             <Link to="/">
               <ListItem button>
                 <ListItemIcon>
-                  <ContactSupportIcon style={{ color: "#fff" }} />
+                  <ContactSupport style={{ color: "#fff" }} />
                 </ListItemIcon>
                 <ListItemText primary={footerData.link[3]} />
               </ListItem>
@@ -152,7 +135,7 @@ const Footer = () => {
             <Link to="/">
               <ListItem button>
                 <ListItemIcon>
-                  <PhoneIcon style={{ color: "#fff" }} />
+                  <Phone style={{ color: "#fff" }} />
                 </ListItemIcon>
                 <ListItemText primary={footerData.tel[0]} />
               </ListItem>
@@ -160,7 +143,7 @@ const Footer = () => {
             <Link to="/">
               <ListItem button>
                 <ListItemIcon>
-                  <PhoneIcon style={{ color: "#fff" }} />
+                  <Phone style={{ color: "#fff" }} />
                 </ListItemIcon>
                 <ListItemText primary={footerData.tel[1]} />
               </ListItem>
