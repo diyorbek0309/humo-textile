@@ -173,7 +173,7 @@ export default function Navbar() {
             component: RouterLink,
             to: href,
             color: "inherit",
-            style: { textDecoration: "none" },
+            style: { textDecoration: "none", color: "#400ccc" },
             key: label,
           }}
         >
