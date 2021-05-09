@@ -50,19 +50,22 @@ export default function LangSelect() {
   const [lang, setLang] = useState("uz");
   const dispatch = useDispatch();
   const history = useHistory();
-  const defaultLang = window.location.pathname.split("/")[1];
+  const defaultLang = localStorage.getItem("lang");
 
   useEffect(() => {
     setLang(defaultLang);
+    dispatch({ type: "LANG_CHANGED", payload: defaultLang });
+    // eslint-disable-next-line
   }, [defaultLang]);
 
   const handleChange = (event) => {
     dispatch({ type: "LANG_CHANGED", payload: event.target.value });
     setLang(event.target.value);
+    localStorage.setItem("lang", event.target.value);
     let path = "";
     const url = history.location.pathname
       .split("/")
-      .map((u, index) => {
+      .map((u) => {
         if (u !== "uz" && u !== "ru" && u !== " ") {
           path += u;
         }

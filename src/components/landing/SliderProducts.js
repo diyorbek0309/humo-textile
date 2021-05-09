@@ -8,7 +8,6 @@ import classes from "./Landing.css";
 
 const SampleNextArrow = (props) => {
   const { className, style, onClick } = props;
-  console.log(props);
   return (
     <div
       className={className}
