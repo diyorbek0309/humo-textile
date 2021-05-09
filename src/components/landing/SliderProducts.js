@@ -95,19 +95,14 @@ export default function SliderProducts({ data }) {
                   <CancelIcon className={classes.Cancel} />
                 )}
               </Typography>
-              <Typography
-                variant="body2"
-                color="textSecondary"
-                component="p"
-                className={classes.ProductInfo}
-              >
+              <div className={classes.ProductInfo}>
                 <p>
                   {data.sizeName} <strong>{product.size}</strong>
                 </p>
                 <p>
                   {data.priceName} <strong>{product.price}</strong>
                 </p>
-              </Typography>
+              </div>
             </div>
           </div>
         ))}

@@ -134,6 +134,11 @@
   padding-bottom: 60px;
 }
 
+.ProductInfo {
+  color: #333;
+  font-family: "Open Sans", sans-serif;
+}
+
 .IconBox {
   padding: 25px 30px;
   width: 30%;

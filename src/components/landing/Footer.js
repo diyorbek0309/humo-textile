@@ -69,7 +69,7 @@ const Footer = () => {
 
   return (
     <div className={classes.FooterContainer}>
-      <Grid container justify="left">
+      <Grid container>
         <Grid item lg={6} className={classes.FooterLeft}>
           <h1 style={{ color: "#fff", fontFamily: "'Open Sans', sans-serif" }}>
             {footerData.titleLeft}
