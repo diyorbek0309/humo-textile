@@ -29,6 +29,8 @@ const useStyles = makeStyles((theme) => ({
   },
   tab: {
     maxWidth: 410,
+    fontSize: 12,
+    padding: 3,
   },
 }));
 

@@ -16,3 +16,17 @@
 .Adress h3 {
   color: rgb(18, 20, 126);
 }
+
+@media screen and (max-width: 480px) {
+  .ContactContainer {
+    margin-top: 50px;
+  }
+  .Adress {
+    padding: 10px;
+    margin-bottom: 40px;
+  }
+  .Adress iframe {
+    width: 310px;
+    height: 240px;
+  }
+}

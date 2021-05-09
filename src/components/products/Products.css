@@ -70,9 +70,19 @@
   }
   .ProductItemWrap {
     width: 100%;
-    height: 420px;
+    height: 520px;
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 30px;
+  }
+  .Information {
+    flex-direction: column;
+  }
+  .Information p {
+    font-size: 14px;
+    margin: 8px 0;
+  }
+  .Information p svg {
+    font-size: 16px;
   }
 }

@@ -88,3 +88,9 @@ body {
 .our_team .team_member .member_img:hover .social_media {
   transform: scale(1);
 }
+
+@media screen and (max-width: 480px) {
+  .OurTeamContainer {
+    margin-top: 50px;
+  }
+}
