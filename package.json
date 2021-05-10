@@ -1,6 +1,8 @@
 {
   "name": "humo-textile",
   "version": "0.1.0",
+  "description": "Humo - tekstil LTD ning rasmiy veb-sayti",
+  "author": "Diyorbek Olimov",
   "private": true,
   "dependencies": {
     "@babel/core": "7.12.3",
