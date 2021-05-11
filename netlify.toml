@@ -1,5 +1,10 @@
 [build]
     functions = "functions"
+    publish = "_site"
+    command = "npm run build"
+    port = "3000"
+[functions]
+  directory = "my_functions"
 [[redirects]]
     from = "/api/*"
     to = "/.netlify/functions/:splat"

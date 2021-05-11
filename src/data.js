@@ -17,17 +17,6 @@ enim minim estudiat veniam siad venumus dolore`,
     text2:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sed distinctio provident officia animi similique unde amet voluptatem ipsa sapiente, quasi itaque reprehenderit nostrum ratione blanditiis laborum quidem. Deleniti, distinctio.",
   },
-  footer: {
-    titleLeft: "Sayt xaritasi",
-    link: ["Bosh sahifa", "Mahsulotlarimiz", "Bizning jamoa", "Aloqa"],
-    nestedLinks: ["Erkaklar", "Ayollar", "Bolalar"],
-    nestedUrls: ["/products", "/products", "/products"],
-    url: ["/", "/products", "/our-team", "/contact"],
-    titleRight: "Biz bilan bog'laning",
-    tel: ["+99897 517 2808", "+99899 999 9999"],
-    adresTitle: "Bizning manzil:",
-    adres: "Xorazm viloyati Xonqa tumani Shiroq ko'chasi 60 - uy",
-  },
   counter: [
     {
       label: "Xodimlar",
@@ -72,13 +61,12 @@ export const mainDataRu = {
 enim minim estudiat veniam siad venumus dolore`,
   },
   about: {
-    title: "Kompaniyamiz haqida",
+    title: "О нашей компании",
     text1:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sed distinctio provident officia animi similique unde amet voluptatem ipsa sapiente, quasi itaque reprehenderit nostrum ratione blanditiis laborum quidem. Deleniti, distinctio.",
     text2:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sed distinctio provident officia animi similique unde amet voluptatem ipsa sapiente, quasi itaque reprehenderit nostrum ratione blanditiis laborum quidem. Deleniti, distinctio.",
   },
-  footer: {},
   counter: [
     {
       label: "Xodimlar",
@@ -280,12 +268,6 @@ export const contactDataRu = {
   },
   contact: {
     title: "Bizga yozing!",
-    labels: [
-      "Ismingiz",
-      "Emailingiz",
-      "Telefon raqamingiz",
-      "Xabaringiz",
-      "Jo'natish",
-    ],
+    labels: ["Имя", "Емаил", "Telefon raqamingiz", "Xabaringiz", "Jo'natish"],
   },
 };
