@@ -8,19 +8,19 @@ import mens7 from "./assets/img/webp/mens/mens7.webp";
 import mens8 from "./assets/img/webp/mens/mens8.webp";
 import mens9 from "./assets/img/webp/mens/mens9.webp";
 import mens10 from "./assets/img/webp/mens/mens10.webp";
-// import mens11 from "./assets/img/webp/mens/mens11.webp";
-// import mens12 from "./assets/img/webp/mens/mens12.webp";
-// import mens13 from "./assets/img/webp/mens/mens13.webp";
-// import mens14 from "./assets/img/webp/mens/mens14.webp";
-// import mens15 from "./assets/img/webp/mens/mens15.webp";
-// import mens16 from "./assets/img/webp/mens/mens16.webp";
-// import mens17 from "./assets/img/webp/mens/mens17.webp";
-// import mens18 from "./assets/img/webp/mens/mens18.webp";
-// import mens19 from "./assets/img/webp/mens/mens19.webp";
-// import mens20 from "./assets/img/webp/mens/mens20.webp";
-// import mens21 from "./assets/img/webp/mens/mens21.webp";
-// import mens22 from "./assets/img/webp/mens/mens22.webp";
-// import mens23 from "./assets/img/webp/mens/mens23.webp";
+import mens11 from "./assets/img/webp/mens/mens11.webp";
+import mens12 from "./assets/img/webp/mens/mens12.webp";
+import mens13 from "./assets/img/webp/mens/mens13.webp";
+import mens14 from "./assets/img/webp/mens/mens14.webp";
+import mens15 from "./assets/img/webp/mens/mens15.webp";
+import mens16 from "./assets/img/webp/mens/mens16.webp";
+import mens17 from "./assets/img/webp/mens/mens17.webp";
+import mens18 from "./assets/img/webp/mens/mens18.webp";
+import mens19 from "./assets/img/webp/mens/mens19.webp";
+import mens20 from "./assets/img/webp/mens/mens20.webp";
+import mens21 from "./assets/img/webp/mens/mens21.webp";
+import mens22 from "./assets/img/webp/mens/mens22.webp";
+import mens23 from "./assets/img/webp/mens/mens23.webp";
 import mens24 from "./assets/img/webp/mens/product1.webp";
 import mens25 from "./assets/img/webp/mens/product3.webp";
 import socks1 from "./assets/img/webp/mens/socks1.webp";
@@ -128,6 +128,97 @@ export const productsDataUz = {
     {
       isAvailable: true,
       image: mens10,
+      name: "Futbolka",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: mens11,
+      name: "Futbolka",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: mens12,
+      name: "Futbolka",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: mens13,
+      name: "Futbolka",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: mens14,
+      name: "Futbolka",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: mens15,
+      name: "Futbolka",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: mens16,
+      name: "Futbolka",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: mens17,
+      name: "Futbolka",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: mens18,
+      name: "Futbolka",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: mens19,
+      name: "Futbolka",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: mens20,
+      name: "Futbolka",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: mens21,
+      name: "Futbolka",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: mens22,
+      name: "Futbolka",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: mens23,
       name: "Futbolka",
       size: "40",
       price: "30 000",
@@ -305,6 +396,97 @@ export const productsDataRu = {
     {
       isAvailable: true,
       image: mens10,
+      name: "Futbolka",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: mens11,
+      name: "Futbolka",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: mens12,
+      name: "Futbolka",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: mens13,
+      name: "Futbolka",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: mens14,
+      name: "Futbolka",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: mens15,
+      name: "Futbolka",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: mens16,
+      name: "Futbolka",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: mens17,
+      name: "Futbolka",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: mens18,
+      name: "Futbolka",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: mens19,
+      name: "Futbolka",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: mens20,
+      name: "Futbolka",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: mens21,
+      name: "Futbolka",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: mens22,
+      name: "Futbolka",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: mens23,
       name: "Futbolka",
       size: "40",
       price: "30 000",

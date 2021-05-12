@@ -192,6 +192,7 @@ export const ourTeamDataRu = {
   sectionTitle: "Образцы из процесса работы нашей команды",
   members: [
     {
+      image: avatar1,
       firstName: "Diyorbek",
       lastName: "Olimov",
       position: "Dasturchi",
@@ -199,6 +200,7 @@ export const ourTeamDataRu = {
 enim minim estudiat`,
     },
     {
+      image: avatar1,
       firstName: "Diyorbek",
       lastName: "Olimov",
       position: "Dasturchi",
@@ -206,6 +208,7 @@ enim minim estudiat`,
 enim minim estudiat`,
     },
     {
+      image: avatar1,
       firstName: "Diyorbek",
       lastName: "Olimov",
       position: "Dasturchi",
@@ -213,6 +216,7 @@ enim minim estudiat`,
 enim minim estudiat`,
     },
     {
+      image: avatar1,
       firstName: "Diyorbek",
       lastName: "Olimov",
       position: "Dasturchi",
@@ -220,6 +224,7 @@ enim minim estudiat`,
 enim minim estudiat`,
     },
     {
+      image: avatar1,
       firstName: "Diyorbek",
       lastName: "Olimov",
       position: "Dasturchi",
@@ -227,6 +232,7 @@ enim minim estudiat`,
 enim minim estudiat`,
     },
     {
+      image: avatar1,
       firstName: "Diyorbek",
       lastName: "Olimov",
       position: "Dasturchi",
