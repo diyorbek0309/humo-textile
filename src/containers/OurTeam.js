@@ -35,7 +35,7 @@ function OurTeam() {
             ))}
           </div>
         </div>
-        <SectionTitle title="Jamoamiz ish jarayonidan namunalar" />
+        <SectionTitle title={ourTeamData.sectionTitle} />
         <OurTeamGallery />
       </Container>
     </div>

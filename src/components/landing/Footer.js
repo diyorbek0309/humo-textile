@@ -6,7 +6,6 @@ import {
   ListItemIcon,
   ListItemText,
   Collapse,
-  Divider,
   makeStyles,
 } from "@material-ui/core";
 import {
@@ -19,6 +18,8 @@ import {
   ChildCare,
   Group,
   Phone,
+  Email,
+  Telegram,
 } from "@material-ui/icons";
 import { useSelector } from "react-redux";
 import { footerDataUz, footerDataRu } from "../../data";
@@ -53,7 +54,7 @@ const Footer = () => {
   return (
     <div className={classes.FooterContainer}>
       <Grid container>
-        <Grid item lg={6} className={classes.FooterLeft}>
+        <Grid item lg={4} className={classes.FooterLeft}>
           <h1 style={{ color: "#fff", fontFamily: "'Open Sans', sans-serif" }}>
             {footerData.titleLeft}
           </h1>
@@ -123,7 +124,7 @@ const Footer = () => {
             </Link>
           </List>
         </Grid>
-        <Grid item lg={6} className={classes.FooterRight}>
+        <Grid item lg={4} className={classes.FooterMiddle}>
           <h1 style={{ color: "#fff", fontFamily: "'Open Sans', sans-serif" }}>
             {footerData.titleRight}
           </h1>
@@ -148,7 +149,30 @@ const Footer = () => {
                 <ListItemText primary={footerData.tel[1]} />
               </ListItem>
             </Link>
-            <Divider light />
+            <Link to="/">
+              <ListItem button>
+                <ListItemIcon>
+                  <Email style={{ color: "#fff" }} />
+                </ListItemIcon>
+                <ListItemText primary="humo.textile@gmail.com" />
+              </ListItem>
+            </Link>
+            <Link to="/">
+              <ListItem button>
+                <ListItemIcon>
+                  <Telegram style={{ color: "#fff" }} />
+                </ListItemIcon>
+                <ListItemText primary="Telegram" />
+              </ListItem>
+            </Link>
+          </List>
+        </Grid>
+        <Grid item lg={4} className={classes.FooterRight}>
+          <List
+            component="nav"
+            aria-labelledby="nested-list-subheader"
+            className={classes.FooterList}
+          >
             <ListItem style={{ display: "flex", flexDirection: "column" }}>
               <h2
                 style={{
@@ -168,6 +192,14 @@ const Footer = () => {
               >
                 {footerData.adres}
               </h3>
+            </ListItem>
+            <ListItem className={classes.Author}>
+              <p>
+                Created by{" "}
+                <em>
+                  <Link to="/">Diyorbek Olimov</Link>
+                </em>
+              </p>
             </ListItem>
           </List>
         </Grid>

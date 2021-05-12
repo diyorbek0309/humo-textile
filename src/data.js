@@ -7,8 +7,7 @@ import classes from "./components/landing/Landing.css";
 export const mainDataUz = {
   carousel: {
     title: "Humo - tekstil LTD",
-    text: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
-enim minim estudiat veniam siad venumus dolore`,
+    text: `Sifat har doim urfda bo'ladi, biz sizga eng yaxshisini ilinamiz!`,
   },
   about: {
     title: "Kompaniyamiz haqida",
@@ -57,8 +56,7 @@ enim`,
 export const mainDataRu = {
   carousel: {
     title: "ХУМО - ТЕКСТИЛЬ ООО",
-    text: `Рус Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
-enim minim estudiat veniam siad venumus dolore`,
+    text: `Качество всегда в традициях, мы желаем вам всего наилучшего!`,
   },
   about: {
     title: "О нашей компании",
@@ -69,35 +67,35 @@ enim minim estudiat veniam siad venumus dolore`,
   },
   counter: [
     {
-      label: "Xodimlar",
+      label: "Персонал",
       number: "100",
     },
     {
-      label: "Mahsulotlar turi",
+      label: "Тип продукта",
       number: "100",
     },
     {
-      label: "Ishlab chiqarish quvvati",
+      label: "Производственная мощность",
       number: "1000",
     },
   ],
-  advantageTitle: "Bizning afzalliklarimiz",
+  advantageTitle: "Наши преимущества",
   advantage: [
     {
       icon: <ThumbUpIcon className={classes.Icon} />,
-      title: "Yuqori sifat",
+      title: "Высокого качества",
       description: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
 enim`,
     },
     {
       icon: <TimerIcon className={classes.Icon} />,
-      title: "Tezkor xizmat ko'rsatish",
+      title: "Оперативное обслуживание",
       description: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
 enim`,
     },
     {
       icon: <FiberNewIcon className={classes.Icon} />,
-      title: "Tezkor xizmat ko'rsatish",
+      title: "Новые дизайны",
       description: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
 enim`,
     },
@@ -117,15 +115,15 @@ export const footerDataUz = {
 };
 
 export const footerDataRu = {
-  titleLeft: "Sayt xaritasi",
-  link: ["Bosh sahifa", "Mahsulotlarimiz", "Bizning jamoa", "Aloqa"],
-  nestedLinks: ["Erkaklar", "Ayollar", "Bolalar"],
+  titleLeft: "Карта сайта",
+  link: ["Главная", "Наши продукты", "Наша команда", "Контакть"],
+  nestedLinks: ["Мужчины", "Женщины", "Дети"],
   nestedUrls: ["/products", "/products", "/products"],
   url: ["/", "/products", "/our-team", "/contact"],
-  titleRight: "Biz bilan bog'laning",
+  titleRight: "Свяжитесь с нами",
   tel: ["+99897 517 2808", "+99899 999 9999"],
-  adresTitle: "Bizning manzil:",
-  adres: "Xorazm viloyati Xonqa tumani Shiroq ko'chasi 60 - uy",
+  adresTitle: "Наш адресс:",
+  adres: "Улица Ширак 60, Ханкинский район, Хорезмская область",
 };
 
 export const ourTeamDataUz = {
@@ -133,6 +131,7 @@ export const ourTeamDataUz = {
     title: "Bizning jamoamiz",
     text: `Bizning kompaniyada xodimlarimiz ishlashi, dam olishi uchun qulay sharoitlar yaratilgan!`,
   },
+  sectionTitle: "Jamoamiz ish jarayonidan namunalar",
   members: [
     {
       image: avatar1,
@@ -190,6 +189,7 @@ export const ourTeamDataRu = {
     title: "НАША КОМАНДА",
     text: `В нашей компании созданы благоприятные условия для работы и отдыха наших сотрудников!`,
   },
+  sectionTitle: "Образцы из процесса работы нашей команды",
   members: [
     {
       firstName: "Diyorbek",
@@ -263,11 +263,11 @@ export const contactDataRu = {
     text: `Вы можете использовать следующую информацию, чтобы связаться с нами`,
   },
   adress: {
-    title: "Bizning manzil:",
-    text: "Xorazm viloyati, Xonqa tumani, Shiroq ko'chasi 60 - uy",
+    title: "Наш адресс:",
+    text: "Улица Ширак 60, Ханкинский район, Хорезмская область",
   },
   contact: {
-    title: "Bizga yozing!",
-    labels: ["Имя", "Емаил", "Telefon raqamingiz", "Xabaringiz", "Jo'natish"],
+    title: "Напишите нам!",
+    labels: ["Имя", "Емаил", "Телефонный номер", "Сообщение", "Отправить"],
   },
 };

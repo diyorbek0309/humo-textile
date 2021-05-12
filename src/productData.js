@@ -235,9 +235,9 @@ export const productsDataRu = {
     title: "Наши продукты",
     text: `Вы можете связаться с нами по номерам, указанным ниже, чтобы приобрести нашу продукцию!`,
   },
-  tabTitle: ["Erkaklar kiyimlari", "Ayollar kiyimlari", "Bolalar kiyimlari"],
-  sizeName: "O'lchami: ",
-  priceName: "Narxi",
+  tabTitle: ["Мужская одежда", "Женская одежда", "Детская одежда"],
+  sizeName: "Размер: ",
+  priceName: "Цена: ",
   men: [
     {
       isAvailable: true,
@@ -408,6 +408,7 @@ export const productsDataRu = {
 };
 
 export const sliderProductsDataUz = {
+  sectionTitle: "Eng xaridorgir mahsulotlarimiz",
   sizeName: "O'lchami: ",
   priceName: "Narxi",
   products: [
@@ -478,6 +479,7 @@ export const sliderProductsDataUz = {
 };
 
 export const sliderProductsDataRu = {
+  sectionTitle: "Наши самые востребованные продукты",
   sizeName: "O'lchami: ",
   priceName: "Narxi",
   products: [

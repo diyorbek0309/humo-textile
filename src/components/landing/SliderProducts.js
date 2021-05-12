@@ -16,7 +16,7 @@ const SampleNextArrow = (props) => {
         display: "block",
         background: "#400ccc",
         borderRadius: "50%",
-        right: "-18px",
+        right: "-14px",
       }}
       onClick={onClick}
     />
@@ -33,7 +33,7 @@ const SamplePrevArrow = (props) => {
         display: "block",
         background: "#400ccc",
         borderRadius: "50%",
-        left: "-18px",
+        left: "-14px",
       }}
       onClick={onClick}
     />
@@ -81,7 +81,7 @@ export default function SliderProducts({ data }) {
   };
   return (
     <Container maxWidth="lg" className={classes.SliderProducts}>
-      <SectionTitle title="Eng xaridorgir mahsulotlarimiz" />
+      <SectionTitle title={data.sectionTitle} />
       <Slider {...settings}>
         {data.products.map((product) => (
           <div className={classes.ProductItemWrap} key={product.image}>
