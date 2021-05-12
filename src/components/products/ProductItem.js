@@ -36,7 +36,7 @@ export default function ProductItem({
   }, [visible, placeholderRef]);
 
   return (
-    <Zoom in="true">
+    <Zoom in={true}>
       <Card className={classes.ProductItemWrap}>
         <CardActionArea>
           {visible ? (
@@ -65,14 +65,14 @@ export default function ProductItem({
                 <CancelIcon className={classes.Cancel} />
               )}
             </Typography>
-            <Typography variant="body2" color="textSecondary" component="p">
+            <div>
               <p>
                 {sizeName} <strong>{size}</strong>
               </p>
               <p>
-                {priceName} <strong>{price}</strong>
+                {priceName} <strong>{price} so'm</strong>
               </p>
-            </Typography>
+            </div>
           </CardContent>
         </CardActionArea>
       </Card>

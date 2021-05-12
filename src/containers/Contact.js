@@ -119,7 +119,7 @@ const Contact = () => {
                 width="600"
                 height="450"
                 title="Humo - tekstil"
-                allowfullscreen=""
+                allowFullScreen={true}
                 loading="lazy"
               ></iframe>
             </Paper>
@@ -148,7 +148,6 @@ const Contact = () => {
                         fullWidth
                         id="firstName"
                         label={contactData.contact.labels[0]}
-                        autoFocus
                         value={formik.values.firstName}
                         onChange={formik.handleChange}
                         error={

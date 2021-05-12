@@ -96,8 +96,9 @@ const Products = () => {
               </Tabs>
             </AppBar>
             <TabPanel value={value} index={0}>
-              {productsData.men.map((man) => (
+              {productsData.men.map((man, index) => (
                 <ProductItem
+                  key={index}
                   priceName={productsData.priceName}
                   sizeName={productsData.sizeName}
                   image={man.image}
@@ -109,8 +110,9 @@ const Products = () => {
               ))}
             </TabPanel>
             <TabPanel value={value} index={1}>
-              {productsData.woman.map((woman) => (
+              {productsData.woman.map((woman, index) => (
                 <ProductItem
+                  key={index}
                   priceName={productsData.priceName}
                   sizeName={productsData.sizeName}
                   image={woman.image}
@@ -122,8 +124,9 @@ const Products = () => {
               ))}
             </TabPanel>
             <TabPanel value={value} index={2}>
-              {productsData.child.map((child) => (
+              {productsData.child.map((child, index) => (
                 <ProductItem
+                  key={index}
                   priceName={productsData.priceName}
                   sizeName={productsData.sizeName}
                   image={child.image}
