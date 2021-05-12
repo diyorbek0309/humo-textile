@@ -312,11 +312,9 @@
   .FooterContainer {
     margin-top: 40px;
     width: 100%;
-    height: 700px;
+    height: 710px;
   }
-  .FooterRight {
-    padding-top: 0;
-  }
+  .FooterRight,
   .FooterMiddle {
     padding-top: 0;
   }
