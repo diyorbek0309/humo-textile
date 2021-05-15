@@ -115,7 +115,7 @@ const Contact = () => {
               <h2>{contactData.adress.title}</h2>
               <h3>{contactData.adress.text}</h3>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d521.9474168654195!2d60.77183931191306!3d41.46375998771097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2s!4v1619980473644!5m2!1sen!2s"
+                src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d770.8024954491492!2d60.765143482812825!3d41.465700211543634!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2s!4v1621059764650!5m2!1sen!2s"
                 width="600"
                 height="450"
                 title="Humo - tekstil"
@@ -138,6 +138,7 @@ const Contact = () => {
                   onSubmit={formik.handleSubmit}
                   method="POST"
                   data-netlify="true"
+                  netlify
                 >
                   <Grid container>
                     <Grid
