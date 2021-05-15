@@ -139,7 +139,9 @@ const Contact = () => {
                   method="POST"
                   data-netlify="true"
                   netlify
+                  name="contact"
                 >
+                  <input type="hidden" name="contact" value="contact" />
                   <Grid container>
                     <Grid
                       item
