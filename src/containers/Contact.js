@@ -137,7 +137,8 @@ const Contact = () => {
                   className={styles.form}
                   onSubmit={formik.handleSubmit}
                   method="POST"
-                  netlify
+                  data-netlify-recaptcha="true"
+                  data-netlify="true"
                   name="contact"
                 >
                   <input type="hidden" name="contact" value="contact" />
@@ -214,6 +215,7 @@ const Contact = () => {
                           formik.touched.message && formik.errors.message
                         }
                       />
+                      <div data-netlify-recaptcha="true"></div>
                       <div>
                         <Button
                           type="submit"
