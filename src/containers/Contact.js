@@ -137,7 +137,6 @@ const Contact = () => {
                   className={styles.form}
                   onSubmit={formik.handleSubmit}
                   method="POST"
-                  data-netlify="true"
                   netlify
                   name="contact"
                 >
