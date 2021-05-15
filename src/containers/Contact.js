@@ -133,7 +133,12 @@ const Contact = () => {
                 <Typography component="h1" variant="h5">
                   {contactData.contact.title}
                 </Typography>
-                <form className={styles.form} onSubmit={formik.handleSubmit}>
+                <form
+                  className={styles.form}
+                  onSubmit={formik.handleSubmit}
+                  method="POST"
+                  data-netlify="true"
+                >
                   <Grid container>
                     <Grid
                       item

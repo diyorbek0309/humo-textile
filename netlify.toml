@@ -1,9 +1,9 @@
 [build]
-    functions = "functions"
-    command = "npm run build"
-    targetPort = "3000"
+  command = "yarn build" 
+  functions = "built-lambda"
+  publish = "build"
 [functions]
-  directory = "my_functions"
+  directory = "functions"
 [[redirects]]
     from = "/api/*"
     to = "/.netlify/functions/:splat"
