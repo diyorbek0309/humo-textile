@@ -15,7 +15,7 @@ function Logo() {
 
   return (
     <Typography variant="h6" component="h1" className={logo}>
-      Humo - tekstil
+      Humo - teks
     </Typography>
   );
 }

@@ -21,8 +21,20 @@ import mens20 from "./assets/img/webp/mens/mens20.webp";
 import mens21 from "./assets/img/webp/mens/mens21.webp";
 import mens22 from "./assets/img/webp/mens/mens22.webp";
 import mens23 from "./assets/img/webp/mens/mens23.webp";
-import mens24 from "./assets/img/webp/mens/product1.webp";
-import mens25 from "./assets/img/webp/mens/product3.webp";
+import mens24 from "./assets/img/webp/mens/mens24.jpg";
+import mens25 from "./assets/img/webp/mens/mens25.jpg";
+import mens26 from "./assets/img/webp/mens/mens26.jpg";
+import mens27 from "./assets/img/webp/mens/mens27.jpg";
+import mens28 from "./assets/img/webp/mens/mens28.jpg";
+import mens29 from "./assets/img/webp/mens/mens29.jpg";
+import mens30 from "./assets/img/webp/mens/mens30.jpg";
+import mens31 from "./assets/img/webp/mens/mens31.jpg";
+import mens32 from "./assets/img/webp/mens/mens32.jpg";
+import mens33 from "./assets/img/webp/mens/mens33.jpg";
+import mens34 from "./assets/img/webp/mens/mens34.jpg";
+import mens35 from "./assets/img/webp/mens/mens35.jpg";
+import product1 from "./assets/img/webp/mens/product1.webp";
+import product3 from "./assets/img/webp/mens/product3.webp";
 import socks1 from "./assets/img/webp/mens/socks1.webp";
 import socks2 from "./assets/img/webp/mens/socks2.webp";
 import socks3 from "./assets/img/webp/mens/socks3.webp";
@@ -31,6 +43,9 @@ import socks4 from "./assets/img/webp/mens/socks4.webp";
 import wsocks1 from "./assets/img/webp/womans/socks1.webp";
 import wsocks2 from "./assets/img/webp/womans/socks2.webp";
 import wsocks3 from "./assets/img/webp/womans/socks3.webp";
+import womans1 from "./assets/img/webp/womans/womans1.jpg";
+import womans2 from "./assets/img/webp/womans/womans2.jpg";
+import womans3 from "./assets/img/webp/womans/womans3.jpg";
 
 import childs1 from "./assets/img/webp/childs/childs1.webp";
 import childs2 from "./assets/img/webp/childs/childs2.webp";
@@ -99,14 +114,14 @@ export const productsDataUz = {
     },
     {
       isAvailable: true,
-      image: mens24,
+      image: product1,
       name: "Futbolka",
       size: "40",
       price: "30 000",
     },
     {
       isAvailable: true,
-      image: mens25,
+      image: product3,
       name: "Futbolka",
       size: "40",
       price: "30 000",
@@ -225,6 +240,90 @@ export const productsDataUz = {
     },
     {
       isAvailable: true,
+      image: mens24,
+      name: "Futbolka",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: mens25,
+      name: "Futbolka",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: mens26,
+      name: "Futbolka",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: mens27,
+      name: "Futbolka",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: mens28,
+      name: "Futbolka",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: mens29,
+      name: "Futbolka",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: mens30,
+      name: "Futbolka",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: mens31,
+      name: "Futbolka",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: mens32,
+      name: "Futbolka",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: mens33,
+      name: "Futbolka",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: mens34,
+      name: "Futbolka",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: mens35,
+      name: "Futbolka",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
       image: socks1,
       name: "Paypoq",
       size: "40",
@@ -253,6 +352,27 @@ export const productsDataUz = {
     },
   ],
   woman: [
+    {
+      isAvailable: true,
+      image: womans1,
+      name: "Paypoq",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: womans2,
+      name: "Paypoq",
+      size: "40",
+      price: "30 000",
+    },
+    {
+      isAvailable: true,
+      image: womans3,
+      name: "Paypoq",
+      size: "40",
+      price: "30 000",
+    },
     {
       isAvailable: true,
       image: wsocks1,

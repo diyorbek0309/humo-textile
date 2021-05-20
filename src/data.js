@@ -6,11 +6,11 @@ import classes from "./components/landing/Landing.css";
 
 export const mainDataUz = {
   carousel: {
-    title: "Humo - tekstil LTD",
+    title: "Humo - teks LTD",
     text: `Sifat har doim urfda bo'ladi, biz sizga eng yaxshisini ilinamiz!`,
   },
   about: {
-    title: "Kompaniyamiz haqida",
+    title: "Korxonamiz haqida",
     text1:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sed distinctio provident officia animi similique unde amet voluptatem ipsa sapiente, quasi itaque reprehenderit nostrum ratione blanditiis laborum quidem. Deleniti, distinctio.",
     text2:
@@ -55,7 +55,7 @@ enim`,
 
 export const mainDataRu = {
   carousel: {
-    title: "ХУМО - ТЕКСТИЛЬ ООО",
+    title: "ХУМО - ТЕКС ООО",
     text: `Качество всегда в традициях, мы желаем вам всего наилучшего!`,
   },
   about: {
