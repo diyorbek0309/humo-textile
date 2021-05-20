@@ -142,7 +142,7 @@
   font-family: "Open Sans", sans-serif;
   font-size: 22px;
   color: #033568;
-  padding-right: 20px;
+  padding-right: 10px;
   margin-top: 0;
 }
 
@@ -288,14 +288,14 @@
     height: 140px;
   }
   .Counter {
-    width: 29%;
+    width: 26%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
   }
   .Counter:last-child {
-    width: 42%;
+    width: 48%;
   }
   .Counter h1 {
     font-size: 32px;

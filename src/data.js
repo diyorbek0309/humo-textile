@@ -1,4 +1,4 @@
-import avatar1 from "./assets/img/avatarWEBP.webp";
+import avatar1 from "./assets/img/no-image.jpg";
 import FiberNewIcon from "@material-ui/icons/FiberNew";
 import TimerIcon from "@material-ui/icons/Timer";
 import ThumbUpIcon from "@material-ui/icons/ThumbUp";
@@ -12,22 +12,24 @@ export const mainDataUz = {
   about: {
     title: "Korxonamiz haqida",
     text1:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sed distinctio provident officia animi similique unde amet voluptatem ipsa sapiente, quasi itaque reprehenderit nostrum ratione blanditiis laborum quidem. Deleniti, distinctio.",
+      "Bizning korxonamiz 2007-yilda tashkil etilgan bo'lib, turli xil kiyim-kechaklar va matolar ishlab chiqariladi. Korxonamiz zamonaviy tikuv mashinalari va to'quv dastgohlari bilan jihozlangan.",
     text2:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sed distinctio provident officia animi similique unde amet voluptatem ipsa sapiente, quasi itaque reprehenderit nostrum ratione blanditiis laborum quidem. Deleniti, distinctio.",
+      "Hozirda korxonamizda Xitoy, Janubiy Koreya va Yaponiyadan keltirilgan 70 dan ortiq tikuv mashinalaridan va 12 ta to'quv dastgohlaridan foydalanilyapti.",
+    text3:
+      "2020-yilda korxonamizda 5,4 mlrd so'mlik mahsulotlar ishlab chiqarildi va ishlab chiqarish quvvatini yiliga 10 mlrd so'mga oshirish imkoniyati bor.",
   },
   counter: [
     {
       label: "Xodimlar",
-      number: "100",
+      number: "75",
     },
     {
       label: "Mahsulotlar turi",
-      number: "100",
+      number: "30",
     },
     {
-      label: "Ishlab chiqarish quvvati",
-      number: "1000",
+      label: "Ishlab chiqarish quvvati (yiliga ming $)",
+      number: "540",
     },
   ],
   advantageTitle: "Bizning afzalliklarimiz",
@@ -61,9 +63,11 @@ export const mainDataRu = {
   about: {
     title: "О нашей компании",
     text1:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sed distinctio provident officia animi similique unde amet voluptatem ipsa sapiente, quasi itaque reprehenderit nostrum ratione blanditiis laborum quidem. Deleniti, distinctio.",
+      "Bizning korxonamiz 2007-yilda tashkil etilgan bo'lib, turli xil kiyim-kechaklar va matolar ishlab chiqariladi. Korxonamiz zamonaviy tikuv mashinalari va to'quv dastgohlari bilan jihozlangan.",
     text2:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sed distinctio provident officia animi similique unde amet voluptatem ipsa sapiente, quasi itaque reprehenderit nostrum ratione blanditiis laborum quidem. Deleniti, distinctio.",
+      "Hozirda korxonamizda Xitoy, Janubiy Koreya va Yaponiyadan keltirilgan 70 dan ortiq tikuv mashinalaridan va 12 ta to'quv dastgohlaridan foydalanilyapti.",
+    text3:
+      "2020-yilda korxonamizda 5,4 mlrd so'mlik mahsulotlar ishlab chiqarildi va ishlab chiqarish quvvatini yiliga 10 mlrd so'mga oshirish imkoniyati bor.",
   },
   counter: [
     {
@@ -135,51 +139,18 @@ export const ourTeamDataUz = {
   members: [
     {
       image: avatar1,
-      firstName: "Diyorbek",
-      lastName: "Olimov",
-      position: "Dasturchi",
-      description: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
-enim minim estudiat`,
-    },
-    {
-      image: avatar1,
-      firstName: "Diyorbek",
-      lastName: "Olimov",
-      position: "Dasturchi",
-      description: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
-enim minim estudiat`,
-    },
-    {
-      image: avatar1,
-      firstName: "Diyorbek",
-      lastName: "Olimov",
-      position: "Dasturchi",
-      description: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
-enim minim estudiat`,
-    },
-    {
-      image: avatar1,
-      firstName: "Diyorbek",
-      lastName: "Olimov",
-      position: "Dasturchi",
-      description: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
-enim minim estudiat`,
-    },
-    {
-      image: avatar1,
-      firstName: "Diyorbek",
-      lastName: "Olimov",
-      position: "Dasturchi",
-      description: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
-enim minim estudiat`,
-    },
-    {
-      image: avatar1,
-      firstName: "Diyorbek",
-      lastName: "Olimov",
-      position: "Dasturchi",
-      description: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
-enim minim estudiat`,
+      firstName: "Bekmetov",
+      lastName: "Xushnud",
+      position: "Korxona rahbari",
+      description: `-Жамият асосчиси Бекметов Хушнуд Отожонович 1 январ 1956 йилда туғилган.
+- Маълумоти олий Тошкент тўқимачилик ва енгил саноат институтини 1973-1978 йилларда Енгил саноат машина апаратлари инженерии, техналогия мутахасислиги буйича тамомлаган.
+- Давлат корхоналарда турли рахбарлик лавозмларда 43 йил мехнат килган.
+- Тадбиркорлик фаолиятини 1996 йилда бошлаган.
+- Ўзбекистон Республикасининг мустакиллигини 20 йиллик медали сохиби.
+- Ўзбекистон Республикаси Призиденти соврини Ташаббус кўрик танловларида иштирок қилган.
+- 2014 йил вилоят, туман босқичларидан ўтиб Республика босқичида иштирок қилган ва диплом сохиби.
+-Жамият Бекметов Хушнуд Отожонович рахбарлигида 4 нафар фарзанди билан бирга бшқариб келмоқда.
+`,
     },
   ],
 };
@@ -193,51 +164,18 @@ export const ourTeamDataRu = {
   members: [
     {
       image: avatar1,
-      firstName: "Diyorbek",
-      lastName: "Olimov",
-      position: "Dasturchi",
-      description: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
-enim minim estudiat`,
-    },
-    {
-      image: avatar1,
-      firstName: "Diyorbek",
-      lastName: "Olimov",
-      position: "Dasturchi",
-      description: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
-enim minim estudiat`,
-    },
-    {
-      image: avatar1,
-      firstName: "Diyorbek",
-      lastName: "Olimov",
-      position: "Dasturchi",
-      description: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
-enim minim estudiat`,
-    },
-    {
-      image: avatar1,
-      firstName: "Diyorbek",
-      lastName: "Olimov",
-      position: "Dasturchi",
-      description: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
-enim minim estudiat`,
-    },
-    {
-      image: avatar1,
-      firstName: "Diyorbek",
-      lastName: "Olimov",
-      position: "Dasturchi",
-      description: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
-enim minim estudiat`,
-    },
-    {
-      image: avatar1,
-      firstName: "Diyorbek",
-      lastName: "Olimov",
-      position: "Dasturchi",
-      description: `Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua
-enim minim estudiat`,
+      firstName: "Бекметов",
+      lastName: "Хушнуд",
+      position: "Korxona rahbari",
+      description: `-Жамият асосчиси Бекметов Хушнуд Отожонович 1 январ 1956 йилда туғилган.
+- Маълумоти олий Тошкент тўқимачилик ва енгил саноат институтини 1973-1978 йилларда Енгил саноат машина апаратлари инженерии, техналогия мутахасислиги буйича тамомлаган.
+- Давлат корхоналарда турли рахбарлик лавозмларда 43 йил мехнат килган.
+- Тадбиркорлик фаолиятини 1996 йилда бошлаган.
+- Ўзбекистон Республикасининг мустакиллигини 20 йиллик медали сохиби.
+- Ўзбекистон Республикаси Призиденти соврини Ташаббус кўрик танловларида иштирок қилган.
+- 2014 йил вилоят, туман босқичларидан ўтиб Республика босқичида иштирок қилган ва диплом сохиби.
+-Жамият Бекметов Хушнуд Отожонович рахбарлигида 4 нафар фарзанди билан бирга бшқариб келмоқда.
+`,
     },
   ],
 };
