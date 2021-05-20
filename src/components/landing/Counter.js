@@ -23,7 +23,7 @@ const Counter = ({ label, number }) => {
 
   return (
     <div className={classes.Counter}>
-      <h1>{count}</h1>
+      <h1>{count} +</h1>
       <h2>{label}</h2>
     </div>
   );

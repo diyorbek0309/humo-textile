@@ -36,6 +36,7 @@ function Main() {
         title={mainData.about.title}
         text1={mainData.about.text1}
         text2={mainData.about.text2}
+        text3={mainData.about.text3}
       />
       <OurAdvanatages
         advantage={mainData.advantage}
