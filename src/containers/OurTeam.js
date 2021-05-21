@@ -25,12 +25,18 @@ function OurTeam() {
           <div className={classes.our_team}>
             {ourTeamData.members.map((member, index) => (
               <div className={classes.team_member} key={index}>
-                <div className={classes.member_img}>
-                  <img src={member.image} alt="Jamoaviy Surat" />
+                <div className={classes.left}>
+                  <div className={classes.member_img}>
+                    <img src={member.image} alt="Jamoaviy Surat" />
+                  </div>
+                  <h3>{member.firstName + " " + member.lastName}</h3>
+                  <span>{member.position}</span>
                 </div>
-                <h3>{member.firstName + " " + member.lastName}</h3>
-                <span>{member.position}</span>
-                <p>{member.description}</p>
+                <div className={classes.DescriptionWrap}>
+                  {member.description.map((item, index) => (
+                    <p key={index}>{item}</p>
+                  ))}
+                </div>
               </div>
             ))}
           </div>

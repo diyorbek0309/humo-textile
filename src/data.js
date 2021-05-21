@@ -142,15 +142,15 @@ export const ourTeamDataUz = {
       firstName: "Bekmetov",
       lastName: "Xushnud",
       position: "Korxona rahbari",
-      description: `-Жамият асосчиси Бекметов Хушнуд Отожонович 1 январ 1956 йилда туғилган.
-- Маълумоти олий Тошкент тўқимачилик ва енгил саноат институтини 1973-1978 йилларда Енгил саноат машина апаратлари инженерии, техналогия мутахасислиги буйича тамомлаган.
-- Давлат корхоналарда турли рахбарлик лавозмларда 43 йил мехнат килган.
-- Тадбиркорлик фаолиятини 1996 йилда бошлаган.
-- Ўзбекистон Республикасининг мустакиллигини 20 йиллик медали сохиби.
-- Ўзбекистон Республикаси Призиденти соврини Ташаббус кўрик танловларида иштирок қилган.
-- 2014 йил вилоят, туман босқичларидан ўтиб Республика босқичида иштирок қилган ва диплом сохиби.
--Жамият Бекметов Хушнуд Отожонович рахбарлигида 4 нафар фарзанди билан бирга бшқариб келмоқда.
-`,
+      description: [
+        "- Korxona asoschisi Bekmetov Xushnud Otajonovich, 1956 - yil 1-yanvarda tug'ilgan",
+        "- 1973-1978-yillarda Toshkent to'qimachilik va yengil sanoat institutini Yengil sanoat va mashina apparatlari injineringi mutaxassisligi bo'yicha tamomlagan",
+        "- Davlat korxonalarida turli rahbarlik lavozimlarda 43 yil xizmat qilgan.",
+        "- Tadbirkorlik faoliyatini 1996-yilda boshlagan.",
+        "- O'zbekiston Respublikasi mustaqilligining 20 yilligi ko'krak nishoni sohibi.",
+        "- 2014-yil Tashabbus ko'rik tanlovida tuman, viloyat bosqichlaridan o'tib, Respublika bosqichida ishtirok qilgan va diplom sohibi bo'lgan.",
+        "- Korxona Bekmetov Xushnud va uning 4 nafar farzandi bilan birga boshqarib kelinmoqda.",
+      ],
     },
   ],
 };
