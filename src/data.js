@@ -63,11 +63,11 @@ export const mainDataRu = {
   about: {
     title: "О нашей компании",
     text1:
-      "Bizning korxonamiz 2007-yilda tashkil etilgan bo'lib, turli xil kiyim-kechaklar va matolar ishlab chiqariladi. Korxonamiz zamonaviy tikuv mashinalari va to'quv dastgohlari bilan jihozlangan.",
+      "Наша компания была основана в 2007 году и производит широкий ассортимент одежды и тканей. Наша компания оснащена современными швейными машинами и ткацкими станками.",
     text2:
-      "Hozirda korxonamizda Xitoy, Janubiy Koreya va Yaponiyadan keltirilgan 70 dan ortiq tikuv mashinalaridan va 12 ta to'quv dastgohlaridan foydalanilyapti.",
+      "В настоящее время наша компания использует более 70 швейных машин и 12 ткацких станков, импортированных из Китая, Южной Кореи и Японии.",
     text3:
-      "2020-yilda korxonamizda 5,4 mlrd so'mlik mahsulotlar ishlab chiqarildi va ishlab chiqarish quvvatini yiliga 10 mlrd so'mga oshirish imkoniyati bor.",
+      "В 2020 году наша компания произвела продукции на 5,4 млрд сумов и имеет потенциал увеличения производственных мощностей на 10 млрд сумов в год.",
   },
   counter: [
     {
