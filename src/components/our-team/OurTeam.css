@@ -111,4 +111,16 @@ body {
   .OurTeamContainer {
     margin-top: 50px;
   }
+  .our_team .team_member {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .our_team .team_member .left {
+    width: 90%;
+  }
+  .team_member p {
+    padding: 0 10px;
+  }
 }
