@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch } from "react-redux";
-import { useHistory } from "react-router-dom";
 import { makeStyles, withStyles } from "@material-ui/core/styles";
 import FormControl from "@material-ui/core/FormControl";
 import NativeSelect from "@material-ui/core/NativeSelect";
@@ -49,7 +48,6 @@ export default function LangSelect() {
   const classes = useStyles();
   const [lang, setLang] = useState("uz");
   const dispatch = useDispatch();
-  const history = useHistory();
   const defaultLang = localStorage.getItem("lang");
 
   useEffect(() => {
@@ -62,18 +60,6 @@ export default function LangSelect() {
     dispatch({ type: "LANG_CHANGED", payload: event.target.value });
     setLang(event.target.value);
     localStorage.setItem("lang", event.target.value);
-    let path = "";
-    const url = history.location.pathname
-      .split("/")
-      .map((u) => {
-        if (u !== "uz" && u !== "ru" && u !== " ") {
-          path += u;
-        }
-        return path;
-      })
-      .filter((entry) => entry.trim() !== "")
-      .join("/");
-    history.replace({ pathname: `/${url}` });
   };
 
   return (
