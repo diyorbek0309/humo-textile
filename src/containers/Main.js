@@ -24,13 +24,8 @@ function Main() {
 
   return (
     <div className={classes.LandingContainer}>
-      <div className={classes.HeaderWrap}>
-        <Typography variant="h2" gutterBottom className={classes.HeaderTitle}>
-          {mainData.carousel.title}
-        </Typography>
-        <Typography variant="h5" gutterBottom className={classes.HeaderText}>
-          {mainData.carousel.text}
-        </Typography>
+      <div style={{ padding: "10px", backgroundColor: "#fff" }}>
+        <div className={classes.HeaderWrap}></div>
       </div>
       <AboutSection
         title={mainData.about.title}

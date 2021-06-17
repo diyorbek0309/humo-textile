@@ -6,7 +6,8 @@
   padding-left: 140px;
   padding-top: 220px;
   height: 64.5vh;
-  background: linear-gradient(to right, #0575e6, #400ccc);
+  background: url("../../assets/img/HUMO\ TEKS.jpg") no-repeat;
+  background-size: contain;
 }
 
 .HeaderTitle {
@@ -259,8 +260,9 @@
   }
   .HeaderWrap {
     padding-left: 20px;
-    padding-top: 90px;
-    height: 40vh;
+    margin-top: 25px;
+    height: 190px;
+    padding-top: 0;
   }
   .HeaderTitle {
     font-size: 32px !important;
