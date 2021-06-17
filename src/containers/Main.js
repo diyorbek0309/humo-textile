@@ -1,7 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import classes from "../components/landing/Landing.css";
-import { Typography } from "@material-ui/core";
 import AboutSection from "../components/landing/AboutSection";
 import OurAdvanatages from "../components/landing/OurAdvantages";
 import Counter from "../components/landing/Counter";
