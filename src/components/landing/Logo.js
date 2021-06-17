@@ -1,23 +1,8 @@
 import React from "react";
-import { Typography, makeStyles } from "@material-ui/core";
+import logo from "../../assets/img/humo-teks-min.jpg";
 
-function Logo() {
-  const useStyles = makeStyles(() => ({
-    logo: {
-      fontFamily: "Work Sans, sans-serif",
-      fontWeight: 600,
-      color: "#FFFEFE",
-      textAlign: "left",
-    },
-  }));
-
-  const { logo } = useStyles();
-
-  return (
-    <Typography variant="h6" component="h1" className={logo}>
-      Humo - teks
-    </Typography>
-  );
-}
+const Logo = () => {
+  return <img src={logo} alt="Logo" />;
+};
 
 export default Logo;
