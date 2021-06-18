@@ -6,7 +6,7 @@ import classes from "./components/landing/Landing.css";
 
 export const mainDataUz = {
   carousel: {
-    title: "Humo - teks LTD",
+    title: "Humo Teks LTD",
     text: `Sifat har doim urfda bo'ladi, biz sizga eng yaxshisini ilinamiz!`,
   },
   about: {
@@ -113,7 +113,7 @@ export const footerDataUz = {
   nestedUrls: ["/products", "/products", "/products"],
   url: ["/", "/products", "/our-team", "/contact"],
   titleRight: "Biz bilan bog'laning",
-  tel: ["+99897 517 2808", "+99899 999 9999"],
+  tel: ["+99897 513 2808", "+99897 360 1000"],
   adresTitle: "Bizning manzil:",
   adres: "Xorazm viloyati Xonqa tumani Shiroq ko'chasi 60 - uy",
 };
@@ -125,7 +125,7 @@ export const footerDataRu = {
   nestedUrls: ["/products", "/products", "/products"],
   url: ["/", "/products", "/our-team", "/contact"],
   titleRight: "Свяжитесь с нами",
-  tel: ["+99897 517 2808", "+99899 999 9999"],
+  tel: ["+99897 513 2808", "+99897 360 1000"],
   adresTitle: "Наш адресс:",
   adres: "Улица Ширак 60, Ханкинский район, Хорезмская область",
 };

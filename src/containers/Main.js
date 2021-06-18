@@ -23,9 +23,17 @@ function Main() {
 
   return (
     <div className={classes.LandingContainer}>
-      <div style={{ padding: "10px", backgroundColor: "#fff" }}>
+      <div
+        style={{
+          padding: "50px 140px",
+          paddingBottom: "0px",
+          paddingTop: "80px",
+          backgroundColor: "#151be0",
+        }}
+      >
         <div className={classes.HeaderWrap}></div>
       </div>
+
       <AboutSection
         title={mainData.about.title}
         text1={mainData.about.text1}

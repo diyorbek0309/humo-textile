@@ -6,14 +6,18 @@
   padding-left: 140px;
   padding-top: 220px;
   height: 64.5vh;
-  background: url("../../assets/img/HUMO\ TEKS.jpg") no-repeat;
+  /* background: linear-gradient(to right, #0575e6, #400ccc); */
+  background: url("../../assets/img/humo-teksPNG.png") no-repeat;
   background-size: contain;
 }
 
 .HeaderTitle {
-  font-weight: 700;
   color: #fff;
   text-transform: uppercase;
+  font-size: 112px !important;
+  font-family: "Playfair Display", serif !important;
+  -webkit-text-stroke: 1px #400ccc;
+  -webkit-text-fill-color: white;
 }
 
 .HeaderText {
@@ -260,12 +264,12 @@
   }
   .HeaderWrap {
     padding-left: 20px;
-    margin-top: 25px;
-    height: 190px;
-    padding-top: 0;
+    padding-top: 90px;
+    height: 40vh;
   }
   .HeaderTitle {
-    font-size: 32px !important;
+    font-size: 112px !important;
+    font-family: "Benne", serif !important;
   }
   .HeaderText {
     font-size: 18px !important;
