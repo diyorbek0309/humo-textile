@@ -8,7 +8,7 @@ import { mainDataUz, mainDataRu } from "../data";
 import { sliderProductsDataRu, sliderProductsDataUz } from "../productData";
 import SliderProducts from "../components/landing/SliderProducts";
 
-function Main() {
+const Main = () => {
   let lang = useSelector((state) => state.language);
 
   let mainData;
@@ -52,6 +52,6 @@ function Main() {
       <SliderProducts data={sliderProductsData} />
     </div>
   );
-}
+};
 
 export default Main;

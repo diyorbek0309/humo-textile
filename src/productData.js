@@ -56,9 +56,18 @@ import womans3 from "./assets/img/webp/womans/womans3.jpg";
 import childs1 from "./assets/img/webp/childs/childs1.webp";
 import childs2 from "./assets/img/webp/childs/childs2.webp";
 import childs3 from "./assets/img/webp/childs/childs3.webp";
-import childs4 from "./assets/img/webp/childs/childs4.webp";
-import childs5 from "./assets/img/webp/childs/childs5.webp";
+import childs4 from "./assets/img/webp/childs/childs4.jpg";
+import childs5 from "./assets/img/webp/childs/childs5.jpg";
 import childs6 from "./assets/img/webp/childs/childs6.webp";
+
+import clothes1 from "./assets/img/webp/clothes/blue.jpg";
+import clothes2 from "./assets/img/webp/clothes/grey.jpg";
+import clothes3 from "./assets/img/webp/clothes/lightblue.jpg";
+import clothes4 from "./assets/img/webp/clothes/pink.jpg";
+import clothes5 from "./assets/img/webp/clothes/purple.jpg";
+import clothes6 from "./assets/img/webp/clothes/whiteClothes.jpg";
+import clothes7 from "./assets/img/webp/clothes/coloredClothes1.jpg";
+import clothes8 from "./assets/img/webp/clothes/coloredClothes2.jpg";
 
 export const productsDataUz = {
   header: {
@@ -300,49 +309,127 @@ export const productsDataUz = {
   ],
   woman: [
     {
-      isAvailable: true,
+      isAvailable: false,
       image: womans1,
-      name: "Paypoq",
-      size: "40",
-      price: "30 000",
+      name: "Ko'ylak",
+      size: "Buyurtma asosida",
+      price: "Kelishiladi",
     },
     {
-      isAvailable: true,
+      isAvailable: false,
       image: womans2,
-      name: "Paypoq",
-      size: "40",
-      price: "30 000",
+      name: "Ko'ylak",
+      size: "Buyurtma asosida",
+      price: "Kelishiladi",
     },
     {
-      isAvailable: true,
+      isAvailable: false,
       image: womans3,
-      name: "Paypoq",
-      size: "40",
-      price: "30 000",
+      name: "Ko'ylak",
+      size: "Buyurtma asosida",
+      price: "Kelishiladi",
     },
     {
       isAvailable: true,
       image: childs1,
-      name: "Futbolka",
-      size: "40",
-      price: "30 000",
+      name: "Futbolka va shorti",
+      size: "-",
+      price: "40 000",
     },
     {
       isAvailable: true,
       image: childs2,
-      name: "Futbolka",
-      size: "40",
-      price: "30 000",
+      name: "Futbolka va shorti",
+      size: "-",
+      price: "40 000",
     },
     {
       isAvailable: true,
       image: childs3,
+      name: "Futbolka va shorti",
+      size: "-",
+      price: "40 000",
+    },
+    {
+      isAvailable: true,
+      image: childs4,
       name: "Futbolka",
-      size: "40",
-      price: "30 000",
+      size: "-",
+      price: "15 000",
+    },
+    {
+      isAvailable: true,
+      image: childs5,
+      name: "Futbolka",
+      size: "-",
+      price: "15 000",
+    },
+    {
+      isAvailable: true,
+      image: childs6,
+      name: "Futbolka",
+      size: "-",
+      price: "15 000",
     },
   ],
-  child: [],
+  child: [
+    {
+      isAvailable: true,
+      image: clothes1,
+      name: "Mato",
+      size: "-",
+      price: "65 000 (rangiga bog'liq)",
+    },
+    {
+      isAvailable: true,
+      image: clothes2,
+      name: "Mato",
+      size: "-",
+      price: "65 000 (rangiga bog'liq)",
+    },
+    {
+      isAvailable: true,
+      image: clothes3,
+      name: "Mato",
+      size: "-",
+      price: "65 000 (rangiga bog'liq)",
+    },
+    {
+      isAvailable: true,
+      image: clothes4,
+      name: "Mato",
+      size: "-",
+      price: "65 000 (rangiga bog'liq)",
+    },
+    {
+      isAvailable: true,
+      image: clothes5,
+      name: "Mato",
+      size: "-",
+      price: "65 000 (rangiga bog'liq)",
+    },
+    {
+      isAvailable: true,
+      image: clothes6,
+      name: "Mato",
+      size: "-",
+      price: "65 000 (rangiga bog'liq)",
+    },
+    {
+      isAvailable: true,
+      image: clothes7,
+      name: "Mato",
+      size: "-",
+      price: "65 000 (rangiga bog'liq)",
+    },
+    {
+      isAvailable: true,
+      image: clothes8,
+      name: "Mato",
+      size: "-",
+      price: "65 000 (rangiga bog'liq)",
+    },
+  ],
 };
 
 export const productsDataRu = {
@@ -567,50 +654,7 @@ export const productsDataRu = {
       price: "30 000",
     },
   ],
-  child: [
-    {
-      isAvailable: true,
-      image: childs1,
-      name: "Futbolka",
-      size: "40",
-      price: "30 000",
-    },
-    {
-      isAvailable: true,
-      image: childs2,
-      name: "Futbolka",
-      size: "40",
-      price: "30 000",
-    },
-    {
-      isAvailable: true,
-      image: childs3,
-      name: "Futbolka",
-      size: "40",
-      price: "30 000",
-    },
-    {
-      isAvailable: true,
-      image: childs4,
-      name: "Futbolka",
-      size: "40",
-      price: "30 000",
-    },
-    {
-      isAvailable: true,
-      image: childs5,
-      name: "Futbolka",
-      size: "40",
-      price: "30 000",
-    },
-    {
-      isAvailable: true,
-      image: childs6,
-      name: "Futbolka",
-      size: "40",
-      price: "30 000",
-    },
-  ],
+  child: [],
 };
 
 export const sliderProductsDataUz = {
