@@ -107,6 +107,14 @@ body {
   margin: 0;
 }
 
+@media screen and (max-width: 1920px) and (min-width: 1680px) {
+  .OurTeamWrap,
+  .wrapper {
+    max-width: 1680px !important;
+    margin-bottom: 50px;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .OurTeamContainer {
     margin-top: 50px;

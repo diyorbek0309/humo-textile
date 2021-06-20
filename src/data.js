@@ -109,7 +109,7 @@ enim`,
 export const footerDataUz = {
   titleLeft: "Sayt xaritasi",
   link: ["Bosh sahifa", "Mahsulotlarimiz", "Bizning jamoa", "Aloqa"],
-  nestedLinks: ["Erkaklar", "Ayollar", "Bolalar"],
+  nestedLinks: ["Erkaklar", "Ayollar", "Matolar"],
   nestedUrls: ["/products", "/products", "/products"],
   url: ["/", "/products", "/our-team", "/contact"],
   titleRight: "Biz bilan bog'laning",
@@ -121,7 +121,7 @@ export const footerDataUz = {
 export const footerDataRu = {
   titleLeft: "Карта сайта",
   link: ["Главная", "Наши продукты", "Наша команда", "Контакть"],
-  nestedLinks: ["Мужчины", "Женщины", "Дети"],
+  nestedLinks: ["Мужчины", "Женщины", "Ткани"],
   nestedUrls: ["/products", "/products", "/products"],
   url: ["/", "/products", "/our-team", "/contact"],
   titleRight: "Свяжитесь с нами",

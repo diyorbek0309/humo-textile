@@ -24,7 +24,6 @@
 
 .ProductItemImage {
   width: 100%;
-  height: 440px;
 }
 
 .ProductInfo {
@@ -64,13 +63,22 @@
   height: 3px;
 }
 
+@media screen and (max-width: 1920px) and (min-width: 1680px) {
+  .ProductsWrap {
+    max-width: 1680px !important;
+  }
+  .ProductItemImage {
+    width: 100%;
+    height: 560px;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .ProductContainer {
     margin-top: 50px;
   }
   .ProductItemWrap {
     width: 100%;
-    height: 560px;
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 30px;
@@ -84,5 +92,8 @@
   }
   .Information p svg {
     font-size: 16px;
+  }
+  .MuiTab-wrapper {
+    font-size: 10px;
   }
 }

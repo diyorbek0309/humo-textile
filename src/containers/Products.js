@@ -21,16 +21,20 @@ function a11yProps(index) {
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    maxWidth: 1240,
+    maxWidth: 1640,
     backgroundColor: theme.palette.background.paper,
   },
   AppBar: {
     backgroundColor: "#0ca5cc",
   },
   tab: {
-    maxWidth: 410,
+    maxWidth: 540,
     fontSize: 12,
     padding: 3,
+    [theme.breakpoints.down("sm")]: {
+      fontSize: 9,
+      padding: 2,
+    },
   },
 }));
 

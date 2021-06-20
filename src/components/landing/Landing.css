@@ -6,9 +6,15 @@
   padding-left: 140px;
   padding-top: 220px;
   height: 64.5vh;
-  /* background: linear-gradient(to right, #0575e6, #400ccc); */
   background: url("../../assets/img/humo-teksPNG.png") no-repeat;
   background-size: contain;
+}
+
+.LandingInside {
+  padding: 50px 140px;
+  padding-bottom: 0px;
+  padding-top: 80px;
+  background-color: #151be0;
 }
 
 .HeaderTitle {
@@ -256,6 +262,26 @@
 
 .ProductInfo p {
   margin: 3px 0;
+}
+
+@media screen and (max-width: 1920px) and (min-width: 1680px) {
+  .AboutSectionContainer,
+  .OurAdvantagesContainer,
+  .CounterWrap,
+  .SliderProducts {
+    max-width: 1680px !important;
+  }
+  .HeaderWrap {
+    height: 67.2vh;
+  }
+  .LandingInside {
+    padding: 50px 120px;
+    padding-bottom: 0px;
+    padding-top: 140px;
+  }
+  .IconBox {
+    margin-left: 80px;
+  }
 }
 
 @media screen and (max-width: 480px) {

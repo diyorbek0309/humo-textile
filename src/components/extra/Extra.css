@@ -29,6 +29,13 @@
   margin: 42vh 45vw;
 }
 
+@media screen and (max-width: 1920px) and (min-width: 1680px) {
+  .HeaderWrap {
+    padding-top: 200px;
+    height: 35vh;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .SectionTitle {
     font-size: 32px !important;

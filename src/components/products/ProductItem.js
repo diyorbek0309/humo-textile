@@ -38,18 +38,30 @@ export default function ProductItem({
   return (
     <Zoom in={true}>
       <Card className={classes.ProductItemWrap}>
-        <CardActionArea>
+        <CardActionArea
+          style={{
+            height: "100%",
+            width: "100%",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "space-between",
+          }}
+        >
           {visible ? (
             <CardMedia
               component="img"
-              image={image}
+              src={image}
               alt="Mahsulot"
               title="Mahsulot"
               className={classes.ProductItemImage}
             />
           ) : (
             <div
-              style={{ height: "420px", backgroundColor: "#EEE" }}
+              style={{
+                height: "420px",
+                width: "100%",
+                backgroundColor: "#EEE",
+              }}
               aria-label="Mahsulot"
               ref={placeholderRef}
             >
@@ -65,7 +77,7 @@ export default function ProductItem({
                 <CancelIcon className={classes.Cancel} />
               )}
             </Typography>
-            <div>
+            <div style={{ marginLeft: "-20px" }}>
               <p>
                 {sizeName} <strong>{size}</strong>
               </p>

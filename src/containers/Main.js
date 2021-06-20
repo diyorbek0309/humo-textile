@@ -23,14 +23,7 @@ const Main = () => {
 
   return (
     <div className={classes.LandingContainer}>
-      <div
-        style={{
-          padding: "50px 140px",
-          paddingBottom: "0px",
-          paddingTop: "80px",
-          backgroundColor: "#151be0",
-        }}
-      >
+      <div className={classes.LandingInside}>
         <div className={classes.HeaderWrap}></div>
       </div>
 
