@@ -47,7 +47,7 @@ export default function SliderProducts({ data }) {
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 2,
-    adaptiveHeight: true,
+    adaptiveHeight: false,
     initialSlide: 0,
     lazyLoad: "progressive",
     nextArrow: <SampleNextArrow className={classes.NextArrow} />,
