@@ -47,9 +47,13 @@ import clothes2 from "./assets/img/webp/clothes/grey.jpg";
 import clothes3 from "./assets/img/webp/clothes/lightblue.jpg";
 import clothes4 from "./assets/img/webp/clothes/pink.jpg";
 import clothes5 from "./assets/img/webp/clothes/purple.jpg";
-import clothes6 from "./assets/img/webp/clothes/whiteClothes.jpg";
-import clothes7 from "./assets/img/webp/clothes/coloredClothes1.jpg";
-import clothes8 from "./assets/img/webp/clothes/coloredClothes2.jpg";
+import clothes6 from "./assets/img/webp/clothes/darkBlue.jpg";
+import clothes7 from "./assets/img/webp/clothes/lightPurple.jpg";
+import clothes8 from "./assets/img/webp/clothes/yellow.jpg";
+import clothes9 from "./assets/img/webp/clothes/coloredClothes1.jpg";
+import clothes10 from "./assets/img/webp/clothes/coloredClothes2.jpg";
+import clothes11 from "./assets/img/webp/clothes/whiteClothes1.jpg";
+import clothes12 from "./assets/img/webp/clothes/whiteClothes2.jpg";
 
 export const productsDataUz = {
   header: {
@@ -360,56 +364,84 @@ export const productsDataUz = {
       image: clothes1,
       name: "Mato",
       size: "-",
-      price: "65 000 (rangiga bog'liq)",
+      price: "45000 - 65000 (turiga bog'liq)",
     },
     {
       isAvailable: true,
       image: clothes2,
       name: "Mato",
       size: "-",
-      price: "65 000 (rangiga bog'liq)",
+      price: "45000 - 65000 (turiga bog'liq)",
     },
     {
       isAvailable: true,
       image: clothes3,
       name: "Mato",
       size: "-",
-      price: "65 000 (rangiga bog'liq)",
+      price: "45000 - 65000 (turiga bog'liq)",
     },
     {
       isAvailable: true,
       image: clothes4,
       name: "Mato",
       size: "-",
-      price: "65 000 (rangiga bog'liq)",
+      price: "45000 - 65000 (turiga bog'liq)",
     },
     {
       isAvailable: true,
       image: clothes5,
       name: "Mato",
       size: "-",
-      price: "65 000 (rangiga bog'liq)",
+      price: "45000 - 65000 (turiga bog'liq)",
     },
     {
       isAvailable: true,
       image: clothes6,
       name: "Mato",
       size: "-",
-      price: "65 000 (rangiga bog'liq)",
+      price: "45000 - 65000 (turiga bog'liq)",
     },
     {
       isAvailable: true,
       image: clothes7,
       name: "Mato",
       size: "-",
-      price: "65 000 (rangiga bog'liq)",
+      price: "45000 - 65000 (turiga bog'liq)",
     },
     {
       isAvailable: true,
       image: clothes8,
       name: "Mato",
       size: "-",
-      price: "65 000 (rangiga bog'liq)",
+      price: "45000 - 65000 (turiga bog'liq)",
+    },
+    {
+      isAvailable: true,
+      image: clothes9,
+      name: "Mato",
+      size: "-",
+      price: "45000 - 65000 (turiga bog'liq)",
+    },
+    {
+      isAvailable: true,
+      image: clothes10,
+      name: "Mato",
+      size: "-",
+      price: "45000 - 65000 (turiga bog'liq)",
+    },
+    {
+      isAvailable: true,
+      image: clothes11,
+      name: "Mato",
+      size: "-",
+      price: "45000 - 65000 (turiga bog'liq)",
+    },
+    {
+      isAvailable: true,
+      image: clothes12,
+      name: "Mato",
+      size: "-",
+      price: "45000 - 65000 (turiga bog'liq)",
     },
   ],
 };
@@ -419,7 +451,11 @@ export const productsDataRu = {
     title: "Наши продукты",
     text: `Вы можете связаться с нами по номерам, указанным ниже, чтобы приобрести нашу продукцию!`,
   },
-  tabTitle: ["Мужская одежда", "Женская одежда", "Детская одежда"],
+  tabTitle: [
+    "Мужская одежда",
+    "Женская и детская одежда",
+    "Трикотажные полотна",
+  ],
   sizeName: "Размер: ",
   priceName: "Цена: ",
   men: [
