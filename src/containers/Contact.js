@@ -16,7 +16,7 @@ import EmailRounded from "@material-ui/icons/EmailRounded";
 import * as yup from "yup";
 import { useFormik } from "formik";
 import { contactDataUz, contactDataRu } from "../data";
-import axios from "axios";
+import emailjs from "emailjs-com";
 
 const validationSchema = yup.object({
   firstName: yup
@@ -57,6 +57,26 @@ const Contact = () => {
   const lang = useSelector((state) => state.language);
   const styles = useStyles();
 
+  const sendEmail = (object) => {
+    emailjs
+      .sendForm(
+        "service_framfng",
+        "template_7dhs2qw",
+        object,
+        "user_TrVU4chMz0QlZHT6ffnaD"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
+  const form = document.querySelector("form");
+
   const formik = useFormik({
     initialValues: {
       firstName: "",
@@ -65,36 +85,12 @@ const Contact = () => {
       message: "",
     },
     validationSchema,
-    onSubmit: (values) => {
-      axios
-        .post("/api/sendmail", values)
-        .then((res) => {
-          if (res.data.result !== "success") {
-            setTimeout(() => {
-              // resetForm();
-              values = {};
-            }, 6000);
-          } else {
-            // setData({
-            //   ...data,
-            //   sent: true,
-            //   buttonText: "Sent",
-            //   err: "success",
-            // });
-            setTimeout(() => {
-              // resetForm();
-              values = {};
-            }, 6000);
-          }
-        })
-        .catch((err) => {
-          console.log(err.response.status);
-          // setData({
-          //   ...data,
-          //   buttonText: "Failed to send",
-          //   err: "fail",
-          // });
-        });
+    onSubmit: (values, { resetForm, setSubmitting }) => {
+      sendEmail(form);
+
+      alert("Xabaringiz jo'natildi, Raxmat!");
+      setSubmitting(false);
+      resetForm();
     },
   });
 
@@ -136,9 +132,6 @@ const Contact = () => {
                 <form
                   className={styles.form}
                   onSubmit={formik.handleSubmit}
-                  method="POST"
-                  data-netlify-recaptcha="true"
-                  data-netlify="true"
                   name="contact"
                 >
                   <input type="hidden" name="contact" value="contact" />
