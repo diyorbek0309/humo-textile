@@ -39,8 +39,7 @@ import childs1 from "./assets/img/webp/childs/childs1.webp";
 import childs2 from "./assets/img/webp/childs/childs2.webp";
 import childs3 from "./assets/img/webp/childs/childs3.webp";
 import childs4 from "./assets/img/webp/childs/childs4.jpg";
-import childs5 from "./assets/img/webp/childs/childs5.jpg";
-import childs6 from "./assets/img/webp/childs/childs6.webp";
+import childs6 from "./assets/img/webp/childs/childs6.jpg";
 
 import clothes1 from "./assets/img/webp/clothes/blue.jpg";
 import clothes2 from "./assets/img/webp/clothes/grey.jpg";
@@ -345,17 +344,10 @@ export const productsDataUz = {
     },
     {
       isAvailable: true,
-      image: childs5,
-      name: "Futbolka",
-      size: "-",
-      price: "15 000",
-    },
-    {
-      isAvailable: true,
       image: childs6,
-      name: "Futbolka",
+      name: "Mayka",
       size: "-",
-      price: "15 000",
+      price: "4 200",
     },
   ],
   child: [
@@ -736,17 +728,10 @@ export const productsDataRu = {
     },
     {
       isAvailable: true,
-      image: childs5,
-      name: "Футболка",
-      size: "-",
-      price: "15 000",
-    },
-    {
-      isAvailable: true,
       image: childs6,
-      name: "Футболка",
+      name: "Майка",
       size: "-",
-      price: "15 000",
+      price: "4 200",
     },
   ],
   child: [
