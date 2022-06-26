@@ -48,7 +48,7 @@ export default function LangSelect() {
   const classes = useStyles();
   const [lang, setLang] = useState("uz");
   const dispatch = useDispatch();
-  const defaultLang = localStorage.getItem("lang");
+  const defaultLang = localStorage.getItem("lang") || "uz";
 
   useEffect(() => {
     setLang(defaultLang);
